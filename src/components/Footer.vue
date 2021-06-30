@@ -37,11 +37,8 @@ export default {
     },
     computed: {
         footerSize() {
-            if(this.$vuetify.breakpoint.smOnly) {
+            if(this.$vuetify.breakpoint.smAndDown) {
                 return 74.2;
-            }
-            if (this.$vuetify.breakpoint.xsOnly) {
-                return 36;
             }
             return 139;
         },
@@ -50,14 +47,9 @@ export default {
                 height: 49,
                 width: 158,
             }
-            if(this.$vuetify.breakpoint.smOnly) {
+            if(this.$vuetify.breakpoint.smAndDown) {
                 size.height = 26.16;
                 size.width = 84.34;
-                return size;
-            }
-            if (this.$vuetify.breakpoint.xsOnly) {
-                size.height = 12.72;
-                size.width = 41;
                 return size;
             }
             return size;
@@ -67,14 +59,9 @@ export default {
                 height: 98,
                 width: 230,
             }
-            if(this.$vuetify.breakpoint.smOnly) {
-                size.height = 52.31;
-                size.width = 122.78;
-                return size;
-            }
-            if (this.$vuetify.breakpoint.xsOnly) {
-                size.height = 25.43;
-                size.width = 59.69;
+            if(this.$vuetify.breakpoint.smAndDown) {
+                size.height = 54.99;
+                size.width = 129.06;
                 return size;
             }
             return size;

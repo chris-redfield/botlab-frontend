@@ -8,8 +8,8 @@
             >
                 <v-col class="text-color" cols="12" xl="6" lg="6" md="6" sm="6">
                     <div :class="titleSize">
-                        Implemente <span class="purple-text">IA</span> na gestão do seu
-                        município com o <span class="purple-text">Assis</span>!
+                        Implemente <span class="red-text">IA</span> na gestão do seu
+                        município com o <span class="red-text">Assis</span>!
                     </div>
                     <div :class="{'text-center': $vuetify.breakpoint.xsOnly}">
                         Aumente a <span class="font-weight-bold">produtividade</span>, obtendo orientações de maneira
@@ -24,7 +24,7 @@
                             <v-col>
                                 <v-btn
                                     rounded
-                                    color="#6C63FF"
+                                    color="#12174E"
                                     dark
                                     class="mt-2 mr-4"
                                     @click="abrirChat"
@@ -124,21 +124,21 @@ export default {
             solucionaDuvida: require('@/assets/images/home/cardSolucionaDuvida.svg'),
             multiCanal: require('@/assets/images/home/cardMultcanal.svg'),
             cardDisponibilidade: require('@/assets/images/home/cardDisponibilidade.svg'),
-            heroImageRight: require('@/assets/images/home/hero-image-right.svg'),
+            heroImageRight: require('@/assets/images/home/assis.svg'),
             bodyBackground: require('@/assets/images/home/body-background-top-right.svg'),
             cards: [],
             cardTexts,
             carouselTexts: [
                 {
-                    title: `Você sabia que muitos problemas da <span class="purple-text">gestão pública</span> podem ser solucionados com <span class="purple-text">Inteligência Artificial</span>?`,
+                    title: `Você sabia que muitos problemas da <span class="red-text">gestão pública</span> podem ser solucionados com <span class="red-text">Inteligência Artificial</span>?`,
                     description: `E que isso não é tão caro e complicado quanto parece.`
                 },
                 {
-                    title: `Você sabia que muitos problemas da <span class="purple-text">gestão pública</span> podem ser solucionados com <span class="purple-text">Inteligência Artificial</span>?`,
+                    title: `Você sabia que muitos problemas da <span class="red-text">gestão pública</span> podem ser solucionados com <span class="red-text">Inteligência Artificial</span>?`,
                     description: `E que isso não é tão caro e complicado quanto parece.`
                 },
                 {
-                    title: `Você sabia que muitos problemas da <span class="purple-text">gestão pública</span> podem ser solucionados com <span class="purple-text">Inteligência Artificial</span>?`,
+                    title: `Você sabia que muitos problemas da <span class="red-text">gestão pública</span> podem ser solucionados com <span class="red-text">Inteligência Artificial</span>?`,
                     description: `E que isso não é tão caro e complicado quanto parece.`
                 },
             ]
@@ -231,8 +231,12 @@ function openChat() {
     padding-left: 68px;
 }
 
-.purple-text {
+.red-text {
     color: #6C63FF;
+}
+
+.red-text {
+    color: #EB0932;
 }
 
 .black-blue-text {
