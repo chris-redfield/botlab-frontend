@@ -48,7 +48,7 @@
                         </v-row>
                     </div>
                 </v-col>
-                <v-col v-if="!$vuetify.breakpoint.xsOnly" cols="6" class="image-center">
+                <v-col v-if="!$vuetify.breakpoint.xsOnly" cols="6" style="text-align: -webkit-right;">
                     <v-img
                         :src="heroImageRight"
                         contain
@@ -59,53 +59,34 @@
 
                 </v-col>
             </v-row>
-            <v-row no-gutters v-if="cards.length > 0">
-                <template v-for="(card, i) in cards">
-                <v-col :key="i" v-if="!$vuetify.breakpoint.xsOnly" class="image-center">
-                    <v-img
-                        :src="card"
-                        contain
-                        max-height="auto"
-                        :width="cardsWidth"
-                    ></v-img>
-                    <div
-                        class="black-blue-text"
-                        :class="{'text-h5 font-weight-bold px-5 margin-desktop': $vuetify.breakpoint.lgAndUp}"
-                        :style="`max-width: ${cardsWidth}px;`"
-                    >
-                        <span v-html="cardTexts[i].title"></span>
-                    </div>
-                    <div
-                        class="desc-text-color text-center"
-                        :class="{'px-5': $vuetify.breakpoint.lgAndUp}"
-                        :style="`max-width: ${cardsWidth}px;`"
-                    >
-                        {{cardTexts[i].description}}
-                    </div>
+            <v-row justify="center">
+                <v-col cols="12" xl="4" lg="4" md="4" sm="4" v-for="(card, y) in cardsHome" :key="y">
+                    <v-card>
+                        <v-card-text class="pa-3">
+                            <div class="mb-2">
+                                <v-img
+                                    :src="card"
+                                    contain
+                                    max-height="auto"
+                                    :width="'100%'"
+                                ></v-img>
+                            </div>
+                            <div
+                                class="black-blue-text font-weight-bold text-center"
+                                :class="{'text-h5': $vuetify.breakpoint.lgAndUp}"
+                            >
+                                <span v-html="cardTexts[y].title"></span>
+                            </div>
+                            <div
+                                class="desc-text-color text-center"
+                            >
+                                {{cardTexts[y].description}}
+                            </div>
+                        </v-card-text>
+                    </v-card>
                 </v-col>
-                <v-col :key="i" v-if="$vuetify.breakpoint.xsOnly" cols="12" class="image-center mb-4">
-                    <v-img
-                        :src="card"
-                        contain
-                        max-height="auto"
-                        :width="cardsWidth"
-                    ></v-img>
-                    <div
-                        class="black-blue-text"
-                        :style="`max-width: ${cardsWidth}px;`"
-                    >
-                        <span v-html="cardTexts[i].title"></span>
-                    </div>
-                    <div
-                        class="desc-text-color text-center"
-                        :style="`max-width: ${cardsWidth}px;`"
-                    >
-                        {{cardTexts[i].description}}
-                    </div>
-                </v-col>
-                </template>
             </v-row>
-            <Carousel :slides="carouselTexts"/>
+            <Carousel :slides="carouselTexts" class="px-xl-13"/>
         </v-container>
     </div>
 </template>
@@ -124,9 +105,13 @@ export default {
             solucionaDuvida: require('@/assets/images/home/cardSolucionaDuvida.svg'),
             multiCanal: require('@/assets/images/home/cardMultcanal.svg'),
             cardDisponibilidade: require('@/assets/images/home/cardDisponibilidade.svg'),
+            firstCard: require('@/assets/images/home/cards/first.svg'),
+            secondCard: require('@/assets/images/home/cards/second.svg'),
+            thirdCard: require('@/assets/images/home/cards/third.svg'),
             heroImageRight: require('@/assets/images/home/assis.svg'),
             bodyBackground: require('@/assets/images/home/body-background-top-right.svg'),
             cards: [],
+            cardsHome: [],
             cardTexts,
             carouselTexts: [
                 {
@@ -145,15 +130,6 @@ export default {
         };
     },
     computed: {
-        cardsWidth() {
-            if(this.$vuetify.breakpoint.smOnly || this.$vuetify.breakpoint.mdOnly || this.$vuetify.breakpoint.lgOnly) {
-                return 209.17;
-            }
-            if (this.$vuetify.breakpoint.xsOnly) {
-                return 302.08;
-            }
-            return 395;
-        },
         titleSize() {
             if(this.$vuetify.breakpoint.smOnly || this.$vuetify.breakpoint.mdOnly) {
                 return 'text-h4 font-weight-bold mb-5';
@@ -178,6 +154,7 @@ export default {
     },
     mounted() {
         this.cards = [this.cardDisponibilidade, this.multiCanal, this.solucionaDuvida];
+        this.cardsHome = [this.firstCard, this.secondCard, this.thirdCard];
     },
     methods: {
         abrirChat() {
@@ -202,9 +179,6 @@ function openChat() {
 </script>
 
 <style>
-.image-center {
-    text-align: -webkit-center;
-}
 
 .text-color {
     color: #12174E;
@@ -218,23 +192,6 @@ function openChat() {
     margin-bottom: 30px !important;
 }
 
-
-.image-body-background-lg {
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-right: -12px;
-    margin-top: -126px;
-}
-
-.container-lg {
-    padding-left: 68px;
-}
-
-.red-text {
-    color: #6C63FF;
-}
-
 .red-text {
     color: #EB0932;
 }
@@ -243,14 +200,9 @@ function openChat() {
     color: #12174E;
     text-align: center;
     font-weight: bold;
-    margin-top: -35px;
 }
 
 .desc-text-color {
     color: #12174e99;
-}
-
-.margin-desktop {
-    margin-top: -55px;
 }
 </style>
