@@ -62,7 +62,7 @@ export default {
 .btn-carousel-color ::v-deep .theme--dark.v-btn.v-btn--icon{
     color: #222E48;
     &.v-btn--active {
-        color: #6C63FF;
+        color: #EB0932;
     }
     &.v-carousel__controls__item .v-icon {
         opacity: 1;
@@ -71,6 +71,10 @@ export default {
 
 .purple-text {
     color: #6C63FF;
+}
+
+.red-text {
+    color: #EB0932;
 }
 
 .black-blue-text {
