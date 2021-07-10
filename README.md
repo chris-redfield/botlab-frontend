@@ -20,5 +20,11 @@ npm run build
 npm run lint
 ```
 
+### HOW TO GENERATE AUTH TOKEN HEROKU API_KEY
+
+```
+heroku auth:token
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
