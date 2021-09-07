@@ -55,6 +55,7 @@
                         :width="heroImageRightSize.width"
                         :height="heroImageRightSize.height"
                         id="heroImage"
+                        alt="Imagem do Assis segurando um tablet. Cercado de círculos onde gestores públicos e cidadãos são atendidos"
                     ></v-img>
 
                 </v-col>
@@ -69,6 +70,7 @@
                                     contain
                                     max-height="auto"
                                     :width="'100%'"
+                                    :alt="cardTexts[y].alt"
                                 ></v-img>
                             </div>
                             <div
