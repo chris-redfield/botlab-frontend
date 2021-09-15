@@ -7,17 +7,25 @@
                 :class="{'first-row': !$vuetify.breakpoint.xsOnly, 'first-row-mobile': $vuetify.breakpoint.xsOnly}"
             >
                 <v-col class="text-color" cols="12" xl="6" lg="6" md="6" sm="6">
-                    <div :class="titleSize">
-                        Implemente <span class="red-text">IA</span> na gestão do seu
-                        município com o <span class="red-text">Assis</span>!
+                    <!--div :class="titleSize"-->
+                        <div style="font-size:2em">
+                        <!--Implemente <span class="red-text">IA</span> na gestão do seu
+                        município com o <span class="red-text">Assis</span>! -->
+                        Você sabia que muitos problemas da <span class="red-text">gestão pública</span>
+                        podem ser solucionados com <span class="red-text">Inteligência Artificial</span> ? 
                     </div>
                     <div :class="{'text-center': $vuetify.breakpoint.xsOnly}">
-                        Aumente a <span class="font-weight-bold">produtividade</span>, obtendo orientações de maneira
+                        <!--Aumente a <span class="font-weight-bold">produtividade</span>, obtendo orientações de maneira
                         <span class="font-weight-bold">rápida</span> sobre as melhores
                         <span class="font-weight-bold">práticas</span> de <span class="font-weight-bold">automação</span>
                         e <span class="font-weight-bold">inteligência artificial</span>
                         no <span class="font-weight-bold">setor público</span>
-                        com o assistente virtual <span class="font-weight-bold">Assis</span>.
+                        com o assistente virtual <span class="font-weight-bold">Assis</span>.-->
+                        Assis é um professor virtual que apresenta vantagens e informações sobre o uso da
+                        <b>Inteligência Artificial na Administração Pública</b>. Desenvolvido com as tecnologias mais 
+                        modernas, ele orienta de maneira <b>rápida</b> e completamente <b>gratuita</b>. Clique em “Aprenda com o Assis", para começar. Aproveite essa experiência!
+
+
                     </div>
                     <div :class="{'text-center': $vuetify.breakpoint.xsOnly}">
                         <v-row align="center" class="mt-2">
@@ -30,7 +38,7 @@
                                     @click="abrirChat"
                                     height="40"
                                 >
-                                    É só perguntar
+                                    Aprenda com o Assis
                                 </v-btn>
                                 <v-btn
                                     rounded
@@ -75,7 +83,7 @@
                             </div>
                             <div
                                 class="black-blue-text font-weight-bold text-center"
-                                :class="{'text-h5': $vuetify.breakpoint.lgAndUp}"
+                                :class="{'text-h7': $vuetify.breakpoint.lgAndUp}"
                             >
                                 <span v-html="cardTexts[y].title"></span>
                             </div>
@@ -88,19 +96,20 @@
                     </v-card>
                 </v-col>
             </v-row>
-            <Carousel :slides="carouselTexts" class="px-xl-13"/>
+            <!-- CAROUSEL -->
+            <!--<Carousel :slides="carouselTexts" class="px-xl-13"/>-->
         </v-container>
     </div>
 </template>
 
 <script>
 import cardTexts from './helper/cardTexts';
-import Carousel from '../commom/Carousel.vue';
+//import Carousel from '../commom/Carousel.vue';
 
 export default {
     name: 'Home',
     components: {
-        Carousel,
+        //Carousel,
     },
     data() {
         return {
