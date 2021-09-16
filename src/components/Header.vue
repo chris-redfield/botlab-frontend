@@ -14,7 +14,7 @@
                             <v-btn
                                 tile
                                 text
-                                color="#6C63FF"
+                                color="#9c9ca6"
                                 :class="{ 'underline-button': verifyRoute(hover, '/')}"
                                 @click="changeRoute('/')"
                             >
@@ -29,7 +29,7 @@
                             <v-btn
                                 tile
                                 text
-                                color="#6C63FF"
+                                color="#9c9ca6"
                                 :class="{ 'underline-button': verifyRoute(hover, '/about')}"
                                 @click="changeRoute('/about')"
                             >
@@ -44,7 +44,7 @@
                             <v-btn
                                 tile
                                 text
-                                color="#6C63FF"
+                                color="#9c9ca6"
                                 :class="{ 'underline-button': hover }"
                             >
                                 Documentos
@@ -58,7 +58,7 @@
                             <v-btn
                                 tile
                                 text
-                                color="#6C63FF"
+                                color="#9c9ca6"
                                 :class="{ 'underline-button': hover }"
                             >
                                 Contatos
@@ -153,7 +153,7 @@ export default {
 
 <style scoped>
 .underline-button {
-    border-bottom: 2px solid #6C63FF;
+    border-bottom: 2px solid #9c9ca6;
 }
 
 .justify-large-screen {
