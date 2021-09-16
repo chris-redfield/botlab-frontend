@@ -1,6 +1,6 @@
 <template>
     <v-footer
-        color="#12174E"
+        color="#000106"
         class="footer-app"
         :height="footerSize"
         app
