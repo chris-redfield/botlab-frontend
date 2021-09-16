@@ -32,7 +32,7 @@
                             <v-col>
                                 <v-btn
                                     rounded
-                                    color="#12174E"
+                                    color="#007A4D"
                                     dark
                                     class="mt-2 mr-4"
                                     @click="abrirChat"
@@ -116,10 +116,10 @@ export default {
             solucionaDuvida: require('@/assets/images/home/cardSolucionaDuvida.svg'),
             multiCanal: require('@/assets/images/home/cardMultcanal.svg'),
             cardDisponibilidade: require('@/assets/images/home/cardDisponibilidade.svg'),
-            firstCard: require('@/assets/images/home/cards/first.svg'),
-            secondCard: require('@/assets/images/home/cards/second.svg'),
-            thirdCard: require('@/assets/images/home/cards/third.svg'),
-            heroImageRight: require('@/assets/images/home/assis.svg'),
+            firstCard: require('@/assets/images/home/cards/first.png'),
+            secondCard: require('@/assets/images/home/cards/second.png'),
+            thirdCard: require('@/assets/images/home/cards/third.png'),
+            heroImageRight: require('@/assets/images/home/avatar-principal.png'),
             bodyBackground: require('@/assets/images/home/body-background-top-right.svg'),
             cards: [],
             cardsHome: [],
@@ -204,16 +204,16 @@ function openChat() {
 }
 
 .red-text {
-    color: #EB0932;
+    color: #DE3831;
 }
 
 .black-blue-text {
-    color: #12174E;
+    color: #1A2586;
     text-align: center;
     font-weight: bold;
 }
 
 .desc-text-color {
-    color: #12174e99;
+    color: rgba(0, 0, 0, 0.6);
 }
 </style>

@@ -111,7 +111,7 @@ export default {
     name: 'Header',
     data() {
         return {
-            topLeftImage: require('@/assets/images/topLeft.svg'),
+            topLeftImage: require('@/assets/images/topLeft.png'),
             drawer: null,
             items: [
                 { title: 'Início', icon: 'mdi-view-dashboard', route: '/' },

@@ -36,7 +36,7 @@ export default {
     },
     data() {
         return {
-            cardImg: require('@/assets/images/commom/v-img.svg'),
+            cardImg: require('@/assets/images/commom/v-img.png'),
         }
     },
     computed: {
