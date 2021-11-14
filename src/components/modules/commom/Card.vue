@@ -4,6 +4,7 @@
             :src="cardImg"
             :height="sizeDefaultImg.height"
             :width="sizeDefaultImg.width"
+            v-if="!hideImg"
         ></v-img>
         <v-card-title :class="titleSize">
             {{ title }}
@@ -32,6 +33,11 @@ export default {
             type: String,
             required: false,
             default: ''
+        },
+        hideImg: { 
+            type: Boolean, 
+            required: false, 
+            default: false
         },
     },
     data() {

@@ -2,8 +2,67 @@
     <div>
         <v-container style="text-align: -webkit-center;">
             
-           
-            
+
+           <Card :title="'Índice'" hideImg=“true”>
+                
+                <template v-slot:cardText> 
+                    <div class="black--text">
+                     <p>
+                            Inteligência Artificial (IA): modelos e aplicações
+                            <ol>
+                                <li>
+                                    <router-link to="#O-QUE-E-IA" @click.native="scrollTo('#O-QUE-E-IA')">
+                                        O que é a Inteligência Artificial?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#O-QUE-COMPOE-IA" @click.native="scrollTo('#O-QUE-COMPOE-IA')">
+                                        O que compõe a Inteligência Artificial?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#TECNICAS-DE-IA" @click.native="scrollTo('#TECNICAS-DE-IA')">
+                                        Quais as técnicas de Inteligência Artificial?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#IA-FRACA-IA-FORTE" @click.native="scrollTo('#IA-FRACA-IA-FORTE')">
+                                        O que é uma IA fraca? E IA forte?
+                                    </router-link>
+                                </li>
+                            </ol>
+                        </p>
+                        <p>
+                            Internet das Coisas – Armazenamento e Processamento de dados na área pública (IoT-APP)
+                            <ol>
+                                <li>
+                                    <router-link to="#O-QUE-E-IOT" @click.native="scrollTo('#O-QUE-E-IOT')">
+                                        O que é a Internet das Coisas?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#COMO-CRIAR-IOT" @click.native="scrollTo('#COMO-CRIAR-IOT')">
+                                        O que é preciso para criação de um sistema de IoT?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#O-QUE-PODE-SER-FEITO-IOT" @click.native="scrollTo('#O-QUE-PODE-SER-FEITO-IOT')">
+                                        O que pode ser feito com a Internet das Coisas?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#RELACAO-IOT-AREA-PUBLICA" @click.native="scrollTo('#RELACAO-IOT-AREA-PUBLICA')">
+                                        Qual a relação entre a IoT e a área pública?
+                                    </router-link>
+                                </li>
+                            </ol>
+                        </p>
+
+                     </div>
+                </template>
+            </Card>
+
+            <br><br>
 
             <Card :title="'Inteligência Artificial (IA): modelos e aplicações'">
                 
