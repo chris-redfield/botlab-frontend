@@ -48,8 +48,23 @@ const routes = [
         component: () => import('../components/modules/about/About.vue'),
         beforeEnter: auth
     },
+    {
+        path: '/faq',
+        name: 'Faq',
+        component: () => import('../components/modules/faq/Faq.vue'),
+        beforeEnter: auth
+    },
 ];
 
+
+const scrollBehavior = function (to) {
+    if (to.hash) {
+      return {
+        selector: to.hash
+      }
+    }
+  }
+
 export default new VueRouter({
-    routes
+    routes, scrollBehavior
 });

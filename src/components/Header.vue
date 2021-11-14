@@ -45,9 +45,10 @@
                                 tile
                                 text
                                 color="#9c9ca6"
-                                :class="{ 'underline-button': hover }"
+                                :class="{ 'underline-button': verifyRoute(hover, '/faq')}"
+                                @click="changeRoute('/faq')"
                             >
-                                Documentos
+                                Saiba Mais
                             </v-btn>
                         </v-hover>
                     </v-col>
