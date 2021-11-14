@@ -85,6 +85,15 @@
                         <h2> O que é uma IA fraca? E IA forte?</h2>
                         <br>
 
+                        <p>
+                            IA fraca ou “narrow AI” - o que está atualmente em uso - é a aplicação de inteligência artificial de tarefa única 
+                            para usos como reconhecimento de imagem, tradução de linguagem e veículos autônomos. As máquinas atualmente 
+                            funcionam com mais precisão do que os humanos nesses tipos de tarefas. No futuro, os pesquisadores esperam 
+                            alcançar a IA forte ou uma IA geral. Isso envolveria sistemas que exibem comportamento inteligente em uma 
+                            série de tarefas cognitivas. No entanto, os pesquisadores não estimam que essas capacidades serão alcançadas 
+                            por pelo menos décadas.<a href="#">¹</a>
+                        </p>
+
                         <br>
                         Referências:<br>
                         [1] Artigo 3º (1). Comissão Europeia. Proposta de Regulamento em matéria de IA da União Europeia. Disponível em: 
@@ -98,6 +107,100 @@
                     </div>
                 </template>
             </Card>
+
+
+
+
+            <br><br><br><br>
+
+
+
+
+            <Card :title="'Internet das Coisas – Armazenamento e Processamento de dados na área pública (IoT-APP)'">
+                
+                <template v-slot:cardText>
+                    <div class="black--text">
+                        <div id="O-QUE-E-IOT" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> O que é a Internet das Coisas?</h2>
+                        <br>
+                        
+                        <p>
+                            Não há um conceito único associado à Internet das Coisas (Internet of Things – IOT). Em resumo, pode ser entendido como um 
+                            ambiente em que objetos físicos são interconectados à internet por meio de sensores pequenos e embutidos, o que cria um 
+                            ecossistema de computação ubíqua, com objetivo de facilitar o cotidiano das pessoas com a introdução de soluções mais 
+                            funcionais. Logo, a expressão IoT é usada para designar conectividade e interação entre objetos físicos conectados à 
+                            internet. Por isso, para que haja a IoT, é essencial que haja a junção de computadores, sensores e objetos que 
+                            interagem uns com os outros, processando dados em um cenário de hiperconectividade.<a href="#">¹</a>
+                        </p>
+
+                        <div id="COMO-CRIAR-IOT" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> O que é preciso para criação de um sistema de IoT?</h2>
+                        <br>
+
+
+                        <p>
+                            A Internet das Coisas exige que haja coisas conectadas à internet, porém, isso envolve processos complexos o que 
+                            pode incluir, por exemplo, um dispositivo físico (hardware) com sensores, conectividade sem fim, diferentes 
+                            protocolos de comunicação, transmissão de dados, armazenamento de dados em nuvem, desenvolvimento de aplicações 
+                            que se relacionam com dados e controlam os dispositivos, entre outros. <a href="#">¹</a>
+                        </p>
+
+
+                        <div id="O-QUE-PODE-SER-FEITO-IOT" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> O que pode ser feito com a Internet das Coisas?</h2>
+                        <br>
+                        
+
+                        <p>
+                           O conceito de IoT está intimamente ligado à ideia de “big data”, isto é, uma grande quantidade volumosa de dados 
+                           estruturados, semiestruturados ou não estruturados que podem ser explorados para obter novas informações. A combinação 
+                           desse grande volume de dados com a internet das coisas, por meio de objetos inteligentes, poderá alterar 
+                           significativamente a forma como vivemos. Por exemplo, poderão ser criadas soluções mais eficazes para problemas 
+                           já conhecidos, como poluição, congestionamento, eficiência produtiva, entre outros. Além disso, poderá trazer 
+                           muitos benefícios para os cidadãos enquanto consumidores, ao permitir a criação de produtos e serviços mais rápidos 
+                           e eficientes, trazendo maior conforto e comodidade. <a href="#">¹</a>
+                        </p>
+
+                        <p>
+                            Em resumo, a IoT pode ser uma forma de infraestrutura global específica para o ambiente digital, permitindo 
+                            serviços mais avançados em consequência da interconexão de coisas com base em tecnologias de informação e 
+                            comunicação.<a href="#">¹</a> Objetos inteligentes interconectados podem ser a solução de problemas reais.
+                            <a href="#">²</a>
+                        </p>
+
+                        <div id="RELACAO-IOT-AREA-PUBLICA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> Qual a relação entre a IoT e a área pública?</h2>
+                        <br>
+
+                        <p>
+                            A IoT pode ser uma importante ferramenta para solução de grandes desafios da gestão pública. A partir do uso da 
+                            tecnologia integrada e de dados processados de forma massiva, é possível alcançar soluções mais eficientes e eficazes 
+                            contra problemas de ordem pública, a exemplo da diminuição da burocracia estatal, poluição, congestionamento, criminalidade, 
+                            eficiência produtiva, entre outros. <a href="#">¹</a>
+                        </p>
+
+                        <br>
+                        Referências:<br>
+                        [1]  MAGRANI, Eduardo. A Internet das Coisas. Rio de Janeiro: FGV Editora, 2018, 192p. p. 20.
+                        <br>
+                        [2]  MAGRANI, Eduardo. A Internet das Coisas. Rio de Janeiro: FGV Editora, 2018, 192p. p. 162.
+                        <br>
+                        [3] MAGRANI, Eduardo. A Internet das Coisas. Rio de Janeiro: FGV Editora, 2018, 192p. p. 45.
+                        <br>
+                        [4] MAGRANI, Eduardo. A Internet das Coisas. Rio de Janeiro: FGV Editora, 2018, 192p. p. 46.
+                        <br>
+                        [5] MAGRANI, Eduardo. A Internet das Coisas. Rio de Janeiro: FGV Editora, 2018, 192p. p. 82.
+                    </div>
+                </template>
+            </Card>
+
+
+
+
 
         <!--a href="#TESTE"> FUnciona </a><br> -> esse só funciona com href + Name
 
