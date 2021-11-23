@@ -217,6 +217,8 @@
                                        Como proteger a infraestrutura crítica?
                                     </router-link>
                                 </li>
+                                
+
                             </ol>
                         </p>
                         <p>
@@ -225,6 +227,76 @@
                                 <li>
                                     <router-link to="#IA-PROTEGIDA-PROPRIEDADE-INTELECTUAL" @click.native="scrollTo('#IA-PROTEGIDA-PROPRIEDADE-INTELECTUAL')">
                                         Como utilizar uma ferramenta de IA protegida por direitos de Propriedade Intelectual?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#PROPRIEDADE-INTELECTUAL-OBSTACULOS-IA" @click.native="scrollTo('#PROPRIEDADE-INTELECTUAL-OBSTACULOS-IA')">
+                                       A propriedade intelectual impede ou cria obstáculos para o desenvolvimento de IA?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#PROPRIEDADE-INTELECTUAL-OBSTACULOS-IA" @click.native="scrollTo('#PROPRIEDADE-INTELECTUAL-OBSTACULOS-IA')">
+                                       A propriedade intelectual impede ou cria obstáculos para o desenvolvimento de IA?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#PROPRIEDADE-INTELECTUAL-CAIXA-PRETA" @click.native="scrollTo('#PROPRIEDADE-INTELECTUAL-CAIXA-PRETA')">
+                                       Como funciona a atribuição de direitos de Propriedade Intelectual quando a tecnologia de inteligência artificial é pouco explicável, considerada uma “caixa preta”?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#PROPRIEDADE-INTELECTUAL-IA-CONFLITANTES" @click.native="scrollTo('#PROPRIEDADE-INTELECTUAL-IA-CONFLITANTES')">
+                                       A propriedade intelectual e a IA são conflitantes?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#BENEFICIOS-PI-IA" @click.native="scrollTo('#BENEFICIOS-PI-IA')">
+                                       Quais os benefícios e utilidade em compreender os temas de PI e IA?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#DADOS-DOMINIO-PUBLICO-IA" @click.native="scrollTo('#DADOS-DOMINIO-PUBLICO-IA')">
+                                       Dados em domínio público podem ser usados pela IA protegida por Propriedade Intelectual?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#MUNICIPIO-COMPETENTE-PROPRIEDADE-INTELECTUAL" @click.native="scrollTo('#MUNICIPIO-COMPETENTE-PROPRIEDADE-INTELECTUAL')">
+                                       O município é competente para tratar sobre Propriedade Intelectual?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#MUNICIPIO-REGRAS-PI-IA" @click.native="scrollTo('#MUNICIPIO-REGRAS-PI-IA')">
+                                       Como o município pode lidar com as regras de PI relacionadas à IA?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#PROPRIEDADE-INTELECTUAL-BASES-IA" @click.native="scrollTo('#PROPRIEDADE-INTELECTUAL-BASES-IA')">
+                                       Há propriedade intelectual de bases de dados utilizada pela IA?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#TITULAR-PI-CEDER-DIREITOS" @click.native="scrollTo('#TITULAR-PI-CEDER-DIREITOS')">
+                                       O titular de direitos de PI pode ceder seus direitos ao Município?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#SISTEMAS-IA-TIPOS-PI" @click.native="scrollTo('#SISTEMAS-IA-TIPOS-PI')">
+                                       Os sistemas de IA podem ser protegidos por quais tipos de direitos dentro da Propriedade Intelectual?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#USO-AUTORIZADO-PI" @click.native="scrollTo('#USO-AUTORIZADO-PI')">
+                                       O que é o uso autorizado de Propriedade Intelectual? Pode ser aplicada a um sistema de IA do município?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#LEIS-PI-BRASIL" @click.native="scrollTo('#LEIS-PI-BRASIL')">
+                                       Quais as leis que tratam de Propriedade Intelectual no Brasil?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#AMEACAS-PROPRIEDADE-IMATERIAL" @click.native="scrollTo('#AMEACAS-PROPRIEDADE-IMATERIAL')">
+                                       Quais são as ameaças do direito de propriedade imaterial?
                                     </router-link>
                                 </li>
                             </ol>
@@ -1185,6 +1257,209 @@
                             arriscados, pois o autor pode intentar uma ação contra os usos ilegais de sua criação para 
                             impedi-los, e, na pior das hipóteses, pode solicitar indenização e até ser enquadrado como crime.
                         </p>
+
+                        <div id="PROPRIEDADE-INTELECTUAL-OBSTACULOS-IA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>A propriedade intelectual impede ou cria obstáculos para o desenvolvimento de IA?</h2>
+                        <br>
+
+                        <p>
+                            Este ponto é muito delicado e alvo de muita discussão entre os estudiosos da matéria. A lei de direitos 
+                            autorais do Brasil exige que o autor dê autorização para que uma criação seja utilizada. Quando esta 
+                            criação for uma inteligência artificial, isso pode gerar limitações sobre a sua difusão. Todavia, 
+                            também é necessário haver uma regulação sobre o assunto que permita segurança jurídica e confiança, 
+                            de modo que o investimento nessas tecnologias seja assegurado – em outras palavras, que os criadores 
+                            tenham reconhecimento e remuneração sobre os produtos de seu trabalho. Por isso, há recomendações de 
+                            boas práticas a serem seguidas: inicialmente, para que haja equilíbrio, seria recomendável que o 
+                            legislador adotasse definições neutras sobre inteligência artificial. Por mais que o Município não 
+                            possa legislar sobre o tema, propriamente, é sempre útil ter o conhecimento sobre a matéria para sugerir 
+                            eventuais melhorias no âmbito federal. Além do mais – e isto já é algo em que o gestor público municipal 
+                            pode ter mais margem de manobra -, também é bom que se faça uma avaliação setorial das implicações da 
+                            inteligência artificial para os direitos de propriedade intelectual, levando em consideração o grau de 
+                            intervenção humana no sistema naquele caso concreto, os dados utilizados, se há ou não direitos inetelctuais 
+                            protegidos envolvidos, etc. Se medidas como estas se concretizarem, a propriedade intelectual poderá ser 
+                            não um entrave, mas um auxílio ao desenvolvimento dos sistemas.
+                        </p>
+
+                        <div id="PROPRIEDADE-INTELECTUAL-CAIXA-PRETA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Como funciona a atribuição de direitos de Propriedade Intelectual quando a tecnologia de inteligência 
+                            artificial é pouco explicável, considerada uma “caixa preta”?</h2>
+                        <br>
+
+                        <p>
+                            Nosso direito de propriedade intelectual, especificamente no caso de direito autoral, exige que haja um 
+                            autor para atribuição de autoria. Em outras palavras, a lei dispõe de respostas para os casos em que há 
+                            Nosso direito de propriedade intelectual, especificamente no caso de direito autoral, exige que haja um 
+                            autor para atribuição de autoria. Em outras palavras, a lei dispõe de respostas para os casos em que há 
+                            vários os criadores de uma obra, mas não para o caso de não ser possível identificar quem a criou; e 
+                            isso é um verdadeiro impasse. Isso porque, atualmente, a inteligência artificial tem a capacidade de 
+                            “aprender a pensar” por si mesma – quando alimentada com certa quantidade e qualidade de dados, sendo, 
+                            ainda, instruída no sentido daqueles dados conduzirem a um determinado resultado. Ela passa a percorrer 
+                            este caminho sozinha e vai respondendo a demandas mais complexas com base nesse conhecimento previamente 
+                            adquirido. É o que se chama de "machine learning" (aprendizado da máquina, em inglês). A distância em 
+                            relação ao ser humano pode ser ainda maior se este aprendizado for se aprofundando em diversas camadas 
+                            de dados e algoritmos que se condensam, o que recebe o nome de "deep learning" (aprendizado profundo; 
+                            por isso usamos a palavra “aprofundando” anteriormente). Nesse contexto, pode ser difícil entender como 
+                            a máquina chegou a um determinado resultado, o que é conhecido como o “efeito caixa-preta” (black-box), 
+                            já que ninguém sabe ao certo o que está dentro, ou por detrás, do mecanismo. E, sendo assim, é muito 
+                            difícil atribuir direitos de propriedade intelectual a quem estiver envolvido neste processo.vários os 
+                            criadores de uma obra, mas não para o caso de não ser possível identificar quem a criou; e isso é um 
+                            verdadeiro impasse. Isso porque, atualmente, a inteligência artificial tem a capacidade de “aprender 
+                            a pensar” por si mesma – quando alimentada com certa quantidade e qualidade de dados, sendo, ainda, 
+                            instruída no sentido daqueles dados conduzirem a um determinado resultado. Ela passa a percorrer este 
+                            caminho sozinha e vai respondendo a demandas mais complexas com base nesse conhecimento previamente 
+                            adquirido. É o que se chama de "machine learning" (aprendizado da máquina, em inglês). A distância 
+                            em relação ao ser humano pode ser ainda maior se este aprendizado for se aprofundando em diversas 
+                            camadas de dados e algoritmos que se condensam, o que recebe o nome de "deep learning" (aprendizado 
+                            profundo; por isso usamos a palavra “aprofundando” anteriormente). Nesse contexto, pode ser difícil 
+                            entender como a máquina chegou a um determinado resultado, o que é conhecido como o “efeito caixa-preta” 
+                            (black-box), já que ninguém sabe ao certo o que está dentro, ou por detrás, do mecanismo. E, sendo assim, 
+                            é muito difícil atribuir direitos de propriedade intelectual a quem estiver envolvido neste processo.
+                        </p>
+
+                        <div id="PROPRIEDADE-INTELECTUAL-IA-CONFLITANTES" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>A propriedade intelectual e a IA são conflitantes?</h2>
+                        <br>
+
+                        <p>
+                            A inteligência artificial e a propriedade intelectual podem se relacionar de múltiplas formas. Alguns destes pontos de encontro são colisões; outros, porém, são convergências. Um exemplo de conflito tem relação com a rastreabilidade do criador: o Parlamento Europeu aponta (no seu relatório sobre inteligência artificial e propriedade intelectual na União Europeia, de 2020), a depender do seu nível de complexidade, que seja difícil rastrear os direitos de propriedade intelectual. Isso acontece, por exemplo, quando não é possível identificar claramente o autor por detrás de tantos códigos e algoritmos, o que impediria, por sua vez, uma remuneração justa para o criador, que é algo previsto no sistema de propriedade intelectual. Por outro lado, há pontos em que essas duas áreas convivem em paz. Para citar apenas dois exemplos: i) a inteligência artificial pode ajudar a identificar e processar direitos de propriedade intelectual com muito maior rapidez do que os seres humanos fazem, o que poupa tempo e custos (recursos que devem ser particularmente otimizados na execução das tarefas cotidianas); ii) e há mesmo quem discuta, hoje em dia, se os próprios sistemas em si podem ser criadores/inventores, e, consequentemente, ter os direitos de propriedade intelectual atribuídos às máquinas.
+                        </p>
+
+                        <div id="BENEFICIOS-PI-IA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Quais os benefícios e utilidade em compreender os temas de PI e IA?</h2>
+                        <br>
+
+                        <p>
+                            A utilidade de conhecer e compreender esses temas não é fundamental apenas para a cidade, mas para qualquer cidadão, em um mundo cada vez mais hiperconectado. Primeiro, porque o número de patentes concedidas a tecnologias relacionadas à inteligência artificial tem se multiplicado; depois, porque o progresso da inteligência artificial gera perguntas sobre como a inovação deve ser protegida e fomentada, e, com sua natureza industrial ou artística, surgem oportunidades de negócio e de expansão de atividades culturais, o que traz benefícios para o Município. Um exemplo que revela esse aspecto prático, cotidiano, é a proteção de conteúdos postados na internet, por exemplo, que sejam protegidos por direitos de propriedade intelectual. É o caso do ContentID – um sistema do YouTube responsável por analisar se os vídeos colocados no site têm conteúdo utilizado sem a permissão do criador, e, se for o caso, retirar o vídeo do ar automaticamente ou desmonetizar o canal. 
+                        </p>
+                        <p>
+                            Além disso, a inteligência artificial também pode elaborar tarefas administrativas gerais ou repetitivas, auxiliando os servidores da Administração Pública, por exemplo. É o exemplo do Victor, uma inteligência artificial usada no Supremo Tribunal Federal, que, dentre outras tarefas, identifica recursos e os agrupa por similaridade – a ponto de já ter sido apelidado de “12º Ministro”. Logo, as aplicações de IA já são uma realidade prática e muitos países mais desenvolvidos têm investido fortemente em educar e inserir seus servidores públicos, assim como cidadãos em geral, nesse universo. 
+                        </p>
+
+                        <div id="DADOS-DOMINIO-PUBLICO-IA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Dados em domínio público podem ser usados pela IA protegida por Propriedade Intelectual?</h2>
+                        <br>
+
+                        <p>
+                            “Domínio público” significa que uma obra não tem restrições de uso, de modo que não é preciso pedir autorização a ninguém para utilizar a informação nela contida. Dados que estão em obras caídas em domínio público são muito importantes para os sistemas de inteligência artificial. Isso porque um primeiro passo para a utilização de uma informação é, justamente, saber se ela é protegida por direitos de propriedade intelectual ou se, por outro lado, pertence ao domínio público. Além disso, porque, como a inteligência artificial precisa de dados para melhorar o seu funcionamento – mas que sejam de qualidade -, estes tipos de dados podem ser muito úteis, já que os produtos gerados pela inteligência artificial não podem ser discriminatórios ou enviesados; e uma das formas mais eficazes de assegurar que isto ocorra é por meio da inserção do máximo possível de dados não pessoais para o treinamento e o aprendizado automático do sistema (atenção com a Lei Geral de Proteção de Dados - LGPD).
+                        </p>
+
+                        <div id="MUNICIPIO-COMPETENTE-PROPRIEDADE-INTELECTUAL" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>O município é competente para tratar sobre Propriedade Intelectual?</h2>
+                        <br>
+
+                        <p>
+                            Não. Inclusive, todas as leis sobre propriedade intelectual no Brasil são de competência da União. Isto tem relação com a repartição de competências legislativas, ou seja, aquilo sobre que cada ente federado (Municípios; Estados; e a União) pode legislar. Para ilustrar com outro caso de competência e de como ela pode se distribuir por entre cidade, Estado e o país, pensemos em alguns dos impostos que pagamos: ISS (Imposto Sobre Serviços) é de competência do Município, enquanto que o ICMS (Imposto sobre a Circulação de Mercadorias e Serviços) é de competência do Estado e, por fim, o Imposto de Renda é de competência da União. De volta à propriedade intelectual, podemos analisar que o fato de a competência ser reservada ao nível mais central, como é considerado o federal, tem a vantagem de permitir uma só legislação para todo o país a respeito do tema; com isso, torna-se mais fácil proteger de maneira uniforme os direitos de propriedade intelectual, o que colabora para a segurança jurídica e uma economia mais dinâmica, já que pode haver confiança, por parte dos cidadãos, sobre aquele tema.
+                        </p>
+
+
+                        <div id="MUNICIPIO-REGRAS-PI-IA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Como o município pode lidar com as regras de PI relacionadas à IA?</h2>
+                        <br>
+
+                        <p>
+                            Considera-se que a União é o ente federado que deve ser responsável por instituir regras sobre a matéria, porque, desse modo, é possível evitar problemas como a fragmentação do mercado e a aplicação de normas que sejam muito diferentes de Estado para Estado, ou de Município para Município. Uma legislação bem-orientada para o futuro deve focar na segurança jurídica (que não existe quando há dúvidas sobre qual a norma a ser aplicável numa determinada situação, ou quando diversas delas competem entre si, o que poderia acontecer caso fossem várias as leis), pois ela estimula o desenvolvimento tecnológico, na medida em que fomenta mais confiança no cidadão. Mas atenção: isso não quer dizer que os Municípios não podem implementar projetos de IA, tampouco criar suas próprias estratégias de desenvolvimento tecnológico. Além disso, ainda é preciso considerar que vivemos num país muito grande e com muitas diferenças consoante a região em que nos encontremos, pelo que também será importante que a União não aja sozinha. É fundamental contar com os Estados e Municípios para tratar de situações que exigem mais pormenor, como é o caso dos relatórios de impacto. Estes relatórios são estudos que a União Europeia recomenda que sejam feitos para o desenvolvimento da inteligência artificial e da propriedade intelectual, e devem ser bem detalhados. E os entes federados com base geográfica mais delimitada, como os Municípios, poderão desempenhar melhor esta tarefa.
+                        </p>
+
+                        <div id="PROPRIEDADE-INTELECTUAL-BASES-IA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Há propriedade intelectual de bases de dados utilizada pela IA?</h2>
+                        <br>
+
+                        <p>
+                            As bases ou bancos de dados são um conjunto de informações que se relacionam entre si. Esses dados podem ser brutos (sem tratamento adicional) ou enriquecidos (se houve um trabalho sobre eles, tornando-lhes, de certa maneira, "originais"). Por causa deste trabalho e da originalidade, apenas os segundos podem ser protegidos por direitos autorais. Esta proteção é de um tipo “sui generis”, isto é, especial, feito à medida deste regime, e é conferida pelos arts. 7º, inciso XII, e 87 da Lei de Direitos Autorais. Parece estranho, mas o titular do direito sobre a base de dados pode autorizar ou proibir sua reprodução, modificação, reprodução, dentre outras modalidades elencadas na lei. Este assunto é muito importante para o desenvolvimento de sistemas de inteligência artificial porque, como ela se alimenta de dados, se eles não forem protegidos, não é preciso observar nenhuma formalidade, mas, por outro lado, se se envolver o tratamento de bases de dados protegidas, será necessário respeitar os direitos de propriedade intelectual sobre elas. O assunto é tão importante que, na União Europeia, há uma diretiva (espécie de lei) sobre bases de dados; e, no seu âmbito, houve uma consulta pública para buscar adequá-la, da melhor forma possível, a esta nova realidade trazida pelas tecnologias de IA.
+                        </p>
+
+                        <div id="TITULAR-PI-CEDER-DIREITOS" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>O titular de direitos de PI pode ceder seus direitos ao Município?</h2>
+                        <br>
+
+                        <p>
+                            Se a inteligência artificial for veiculada por meio de um programa de computador, é possível invocar o direito autoral para proteger o software. Como o software é o veículo, é necessário que o sistema seja objeto de cessão ou licença. Mas atenção: o que pode ser objeto dessa transferência são os direitos patrimoniais, isto é, tudo aquilo que diz respeito à exploração econômica da criação intelectual. Os poucos direitos morais que são reconhecidos na Lei de Software, por outro lado, como o direito ao reconhecimento de que aquela pessoa foi a criadora, não podem ser alienados. Eles são, portanto, intransmissíveis. Nesse ponto, é essencial fazer a diferenciação entre software e hardware. A primeira vem definida no art. 1º da Lei de Software, e, uma vez que se verificar este conceito, pode-se concluir que ele é algo mais abstrato. O software é o sistema operacional do nosso celular – iOS, para iPhone, ou Android, para Samsung, Motorola, entre outros. Já o hardware, é como se fosse o corpo, a parte física, do computador. É o celular em si, ou um pen-drive, por exemplo; consiste em algo mais concreto.
+                        </p>
+
+
+                        <div id="SISTEMAS-IA-TIPOS-PI" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Os sistemas de IA podem ser protegidos por quais tipos de direitos dentro da Propriedade Intelectual?</h2>
+                        <br>
+
+                        <p>
+                            O direito de propriedade intelectual divide-se em algumas classificações, sendo que elas ainda se subdividem entre si. Por isso, podemos dizer que temos “tipos” de direitos de propriedade intelectual no Brasil. A grande divisão é entre o direito autoral e o direito da propriedade industrial. O primeiro é ligado à propriedade literária, científica e artística da criação e com sua difusão cultural; o segundo, por outro lado, é mais ligado à propriedade industrial e à difusão tecnológica. Mas isso não quer dizer que um sistema, a par da legislação específica que lhe é aplicável (Lei nº 9.609/1998, sobre o software), só possa ser protegido enquanto obra (direito autoral) ou invenção (propriedade industrial); existe, por exemplo, no nosso país, a possibilidade de proteção por direitos conexos, que são como que vizinhos do direito autoral, mas com eles não se confundem. Um exemplo mais concreto de direito conexo seria aquele que assiste ao cantor, quanto interpreta uma música de outro compositor: quando Elis Regina cantava uma música escrita por Belchior, ela tinha direitos conexos sobre a música, e ele, direitos autorais. Mesmo assim, nos países europeus, os estudiosos da matéria já discutem se a proteção a conceder aos sistemas de inteligência artificial não deveria ser diferente, específica para tal. Há quem defenda que o sistema existente de direitos de propriedade intelectual está sendo desafiado pelas novas tecnologias e que é necessário que a lei adote novas respostas a elas.
+                        </p>
+
+                        <div id="USO-AUTORIZADO-PI" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>O que é o uso autorizado de Propriedade Intelectual? Pode ser aplicada a um sistema de IA do município?</h2>
+                        <br>
+
+                        <p>
+                            O uso autorizado é aquele em que a lei de direitos autorais dispensa, à pessoa que deseja utilizar aquela criação, o requisito de solicitar a permissão do criador ou titular dos direitos intelectuais. Existem exemplos de uso autorizado nas nossas leis, quando falam em exceções aos direitos de propriedade intelectual (é o caso da paródia, se obedecer aos requisitos legais, consoante nos informa o art. 47 da Lei de Direitos Autorais; e, na lei específica sobre software, também temos a exceção de citação parcial do programa para fins didáticos, desde que referenciada, nos termos do art. 6º, inciso II). Este uso livre pode ser interessante aos sistemas de inteligência artificial, na medida em que aquela informação estará disponível, facilitando o incremento da inteligência artificial. Como as máquinas precisam de dados, quanto mais informação disponível e de qualidade, melhor ela funcionará e mais precisa ela será. Mas nem tudo são vantagens quanto ao uso autorizado, afinal, o autor deixará de poder reivindicar alguns dos seus direitos relacionados à sua obra, tendo possíveis prejuízos.
+                        </p>
+
+                        <div id="LEIS-PI-BRASIL" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Quais as leis que tratam de Propriedade Intelectual no Brasil?</h2>
+                        <br>
+
+                        <p>
+                            Nosso quadro legislativo já esteve compilado, mas, atualmente, não dispomos de um código de normas sobre propriedade intelectual - temos códigos para outros assuntos, como o civil, o penal e do trabalho. Nesse contexto, existem quatro leis importantes no universo brasileiro da propriedade intelectual que vale a pena ter em mente. São elas: a Lei nº 9.279/1996, sobre propriedade industrial; a Lei nº 9.456/1997, acerca de cultivares; a Lei nº 9.609/1998, que versa sobre software; e a Lei nº 9.610/1998, que se ocupa dos direitos autorais.
+                        </p>
+                        
+
+                        <div id="AMEACAS-PROPRIEDADE-IMATERIAL" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Quais são as ameaças do direito de propriedade imaterial?</h2>
+                        <br>
+
+                        
+                        <p>
+                            São ações perpetradas por grupos, indivíduos ou organizações com o intuito de prejudicar a imagem e/ou a reputação de uma organização, ou violar algum bem imaterial como segredo industrial ou patente.
+                        </p>
+
+                        <br>
+                        mais informações sobre esse conteúdo:<br>
+                        [1] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9609.htm">
+                            http://www.planalto.gov.br/ccivil_03/leis/l9609.htm
+                        </a><br>
+                        [2] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9610.htm">
+                            http://www.planalto.gov.br/ccivil_03/leis/l9610.htm
+                        </a><br>
+                        [3] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9456.htm">
+                            http://www.planalto.gov.br/ccivil_03/leis/l9456.htm
+                        </a><br>
+                        [4] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9279.htm">
+                            http://www.planalto.gov.br/ccivil_03/leis/l9279.htm
+                        </a><br>
+                        [5] <a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm#art65">
+                            http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm#art65
+                        </a><br>
+                        [6] <a href="https://igarape.org.br/wp-content/uploads/2021/04/Agenda-Seguranca-Digital.pdf">
+                            https://igarape.org.br/wp-content/uploads/2021/04/Agenda-Seguranca-Digital.pdf
+                        </a><br>
+                        [7] <a href="https://support.google.com/youtube/answer/2797370?hl=pt-PT">
+                            https://support.google.com/youtube/answer/2797370?hl=pt-PT
+                        </a><br>
+                        [8] <a href="https://op.europa.eu/en/publication-detail/-/publication/912bc3f8-7d67-11eb-9ac9-01aa75ed71a1/language-en/format-PDF/source-193597312">
+                            https://op.europa.eu/en/publication-detail/-/publication/912bc3f8-7d67-11eb-9ac9-01aa75ed71a1/language-en/format-PDF/source-193597312
+                        </a><br>
+                        [9] <a href="https://www.europarl.europa.eu/doceo/document/A-9-2020-0176_PT.html">
+                            https://www.europarl.europa.eu/doceo/document/A-9-2020-0176_PT.html
+                        </a><br>
+                        [10] <a href="https://www.jota.info/coberturas-especiais/inova-e-acao/stf-aposta-inteligencia-artificial-celeridade-processos-11122018">
+                            https://www.jota.info/coberturas-especiais/inova-e-acao/stf-aposta-inteligencia-artificial-celeridade-processos-11122018
+                        </a><br>
+                        <br>
+
+                        
+
                         
                     </div>
                 </template>
