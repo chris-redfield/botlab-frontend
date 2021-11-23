@@ -182,6 +182,51 @@
                                        O que é um roubo de credencial?
                                     </router-link>
                                 </li>
+                                <li>
+                                    <router-link to="#VAZAMENTO-DADOS" @click.native="scrollTo('#VAZAMENTO-DADOS')">
+                                       O que é um vazamento de dados?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#PROTOCOLOS-INFORMACOES" @click.native="scrollTo('#PROTOCOLOS-INFORMACOES')">
+                                       O que são protocolos de compartilhamento de informações?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#RANSONWARE" @click.native="scrollTo('#RANSONWARE')">
+                                       O que é ransomware?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#CAPACITACAO-SEGURANCA-DIGITAL" @click.native="scrollTo('#CAPACITACAO-SEGURANCA-DIGITAL')">
+                                       Como melhorar a capacitação do pessoal em termos de segurança digital?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#PROTEGER-EQUIPES-CRIMES-CIBERNETICOS" @click.native="scrollTo('#PROTEGER-EQUIPES-CRIMES-CIBERNETICOS')">
+                                       Como proteger as equipes contra crimes cibernéticos?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#PROTEGER-EQUIPES-ACESSOS-INDEVIDOS" @click.native="scrollTo('#PROTEGER-EQUIPES-ACESSOS-INDEVIDOS')">
+                                       Como proteger a equipe contra acessos indevidos?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#PROTEGER-INFRAESTRUTURA-CRITICA" @click.native="scrollTo('#PROTEGER-INFRAESTRUTURA-CRITICA')">
+                                       Como proteger a infraestrutura crítica?
+                                    </router-link>
+                                </li>
+                            </ol>
+                        </p>
+                        <p>
+                            Propriedade Intelectual de IA
+                            <ol>
+                                <li>
+                                    <router-link to="#IA-PROTEGIDA-PROPRIEDADE-INTELECTUAL" @click.native="scrollTo('#IA-PROTEGIDA-PROPRIEDADE-INTELECTUAL')">
+                                        Como utilizar uma ferramenta de IA protegida por direitos de Propriedade Intelectual?
+                                    </router-link>
+                                </li>
                             </ol>
                         </p>
                         
@@ -981,16 +1026,167 @@
                             dados, incluindo identificação, autenticação, senhas e perfis de acesso.
                         </p>
 
+                        <div id="VAZAMENTO-DADOS" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>O que é um vazamento de dados?</h2>
+                        <br>
+
+                        <p>
+                            É a transmissão não autorizada de dados de uma organização para destino ou recipiente 
+                            externo, realizado de modo eletrônico ou físico, acidental ou intencional, que colocam 
+                            em risco o serviço público e toda a sociedade. A Lei Geral de Proteção de Dados 
+                            determina, em seu Art. 48, que o controlador deverá comunicar tanto ao titular quanto 
+                            à Autoridade Nacional de Proteção de Dados Pessoais (ANPD) sobre a ocorrência de 
+                            qualquer incidente de segurança que possa causar risco ou dano ao titular.
+                        </p>
+
+                        <div id="PROTOCOLOS-INFORMACOES" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>O que são protocolos de compartilhamento de informações?</h2>
+                        <br>
+
+                        <p>
+                            Protocolos de compartilhamento de informações são essenciais para a segurança digital. 
+                            São parâmetros internos e externos que definem como dados podem ser compartilhados e/ou 
+                            transferidos entre diferentes departamentos de uma organização e/ou entre diferentes organizações.
+                        </p>
+
+                        <div id="RANSONWARE" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>O que é ransomware?</h2>
+                        <br>
+
+                        <p>
+                            Age como um sequestro de informações, indisponibilizando o acesso de dados por meio 
+                            de implementação de código malicioso até que um valor seja pago pelo resgate.
+                        </p>
+
+
+                        <div id="CAPACITACAO-SEGURANCA-DIGITAL" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Como melhorar a capacitação do pessoal em termos de segurança digital?</h2>
+                        <br>
+
+                        <p>
+                            Segundo o Instituto Igarapé, as principais estratégias para mitigar os riscos atrelados 
+                            à ausência de capacitação envolvem a criação de trilhas de capacitação para os servidores 
+                            públicos e funcionários, com medição e mensuração de eficiência e eficácia de resultados, 
+                            o desenvolvimento de um repositório de pontos de contato de especialistas em segurança 
+                            digital alocados em órgãos públicos, bem como ações de conscientização e sensibilização 
+                            da sociedade sobre a segurança digital. No âmbito da formação, é possível destacar a 
+                            ampliação de noções básicas de segurança digital em todos os níveis de ensino e a 
+                            priorização de temas de segurança digital nos cursos técnicos, nível superior e pós-graduação. 
+                            Também é bastante útil a realização de simulações e cenários de ataques, tanto como instrumentos 
+                            de capacitação para estudantes e profissionais, bem como para a integração de setores.
+                        </p>
+
+                        <div id="PROTEGER-EQUIPES-CRIMES-CIBERNETICOS" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Como proteger as equipes contra crimes cibernéticos?</h2>
+                        <br>
+
+                        <p>
+                            Segundo o Instituto Igarapé, as principais estratégias para mitigar os riscos de crimes 
+                            cibernéticos (ou cibercrimes) envolvem a criação de rotinas de fiscalização e manutenção 
+                            dos sistemas utilizados por entes públicos e privados, o desenvolvimento de ferramentas 
+                            públicas e abertas para detecção, filtragem e prevenção de ataques, assim como incentivo 
+                            ao desenvolvimento e ao uso de sistemas que sejam seguros por design. A capacitação da 
+                            equipe também corrobora para minimizar as vulnerabilidades, principalmente através da 
+                            conscientização a respeito de ferramentas e mecanismos básicos de proteção, disponíveis 
+                            a todos, como o uso de dispositivos e plataformas com criptografia de ponta a ponta, 
+                            VPNs, múltiplos fatores de autenticação e criação de senhas fortes.
+                        </p>
+
+                        <div id="PROTEGER-EQUIPES-ACESSOS-INDEVIDOS" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Como proteger a equipe contra acessos indevidos?</h2>
+                        <br>
+
+                        <p>
+                            Segundo o Instituto Igarapé, as principais estratégias para mitigar os riscos de acessos 
+                            indevidos envolvem principalmente a conscientização a respeito de ferramentas e mecanismos 
+                            básicos de proteção, disponíveis a todos, como o uso de dispositivos e plataformas com 
+                            criptografia de ponta a ponta, VPNs, múltiplos fatores de autenticação e criação de senhas 
+                            fortes. O incentivo ao desenvolvimento e uso de sistemas que sejam seguros por design, a 
+                            criação de ferramentas abertas e públicas para o usuário individual, bem como o incentivo à 
+                            publicação e à divulgação de relatórios ou outras medidas de transparência por parte de entes 
+                            públicos e privados, relatando os acessos indevidos aos seus sistemas também corroboram para 
+                            um ambiente digital mais seguro.
+                        </p>
+
+
+                        <div id="PROTEGER-INFRAESTRUTURA-CRITICA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Como proteger a infraestrutura crítica?</h2>
+                        <br>
+
+                        <p>
+                            Segundo o Instituto Igarapé, as principais estratégias para mitigar as ameaças à estrutura 
+                            crítica envolvem o estabelecimento de políticas rigorosas de acesso aos sistemas ligados à 
+                            infraestrutura crítica, com perfis de segurança, controle e registro de usuários, além do 
+                            incentivo às políticas de manutenção mensal de hardwares essenciais, bem como a criação de 
+                            uma cultura de realização de auditorias externas regulares. Somente com manutenção contínua e 
+                            mapeamento detalhado das vulnerabilidades é possível diminuir os riscos.
+                        </p>
+
+
 
                         <br>
-                        Referências:<br>
+                        Saiba mais<br>
                         [1]  <a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm.">
                             Lei Geral de Proteção de Dados (LGPD), lei nº 13.709/18
-                            </a>.
+                            </a>. <br>
+                        [2] <a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm">
+                            http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+                            </a>. <br>
+                        [3] <a href="https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/2021.05.27GuiaAgentesdeTratamento_Final.pdf">
+                            https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/2021.05.27GuiaAgentesdeTratamento_Final.pdf
+                            </a>. <br>
+                        [4] <a href="https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-1-de-28-de-outubro-de-2021-355817513">
+                            https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-1-de-28-de-outubro-de-2021-355817513
+                            </a>. <br>
+                        [5] <a href="https://igarape.org.br/wp-content/uploads/2021/04/Agenda-Seguranca-Digital.pdf">
+                            https://igarape.org.br/wp-content/uploads/2021/04/Agenda-Seguranca-Digital.pdf
+                            </a>. <br>
                         <br>
 
                     </div>
 
+                </template>
+            </Card>
+
+            <br><br><br><br>
+
+            <Card :title="'Propriedade Intelectual de IA'">
+                
+                <template v-slot:cardText>
+                    <div class="black--text">
+
+                        <br>
+
+                        <div id="IA-PROTEGIDA-PROPRIEDADE-INTELECTUAL" style="visibility:hidden">#</div>
+                        <br>
+                        <h2>Como utilizar uma ferramenta de IA protegida por direitos de Propriedade Intelectual?</h2>
+                        <br>
+
+                        <p>
+                            Em primeiro lugar, é necessário saber se o programa de computador ou sistema de Inteligência 
+                            Artificial está protegido pelas normas de Propriedade Intelectual ou não, de acordo com a 
+                            legislação brasileira. Há casos que criações dessa natureza estejam disponibilizadas, 
+                            gratuitamente, para uso livre na Administração Pública, como acontece com os chamados 
+                            softwares livres, que são boas alternativas. Por outro lado, se for alguma tecnologia 
+                            "proprietária", é importante estar atento aos termos de uso, que podem prever um 
+                            licenciamento específico e, muito provavelmente, pagamento para a sua utilização. 
+                            Noutras palavras, se os criadores da tecnologia não tiverem liberado o seu uso, será 
+                            preciso pedir para usar e, provavelmente, pagar uma quantia ao criador (ou titular) da 
+                            inteligência artificial; é o que chamamos de licença. Porém, é essencial destacar que, 
+                            mesmo com muitos detalhes obrigatórios para uso lícito da tecnologia protegida, em nenhuma 
+                            hipótese é recomendável recorrer à pirataria ou ao plágio - comportamentos bastante 
+                            arriscados, pois o autor pode intentar uma ação contra os usos ilegais de sua criação para 
+                            impedi-los, e, na pior das hipóteses, pode solicitar indenização e até ser enquadrado como crime.
+                        </p>
+                        
+                    </div>
                 </template>
             </Card>
 
