@@ -6,8 +6,10 @@
            <Card :title="'Índice'" hideImg=“true”>
                 
                 <template v-slot:cardText> 
+                    <div id="TOP" style="visibility:hidden">#</div>
                     <div class="black--text">
                      <p>
+                         
                             Inteligência Artificial (IA): modelos e aplicações
                             <ol>
                                 <li>
@@ -466,7 +468,12 @@
                         Demarest, publicado em outubro de 2021.
                         <br>
                         [4] <a href="https://www.notion.so/O-que-uma-Interface-Conversacional-4a79ea785a7c425bb7d86eede6ec5e6d">O que é uma interface conversacional</a>
-
+                        <br><br>
+                        <div style="text-align: right;">
+                        <router-link to="#TOP" @click.native="scrollTo('#TOP')">
+                            Voltar ao índice
+                        </router-link>
+                        </div>
                         
                     </div>
                 </template>
@@ -651,7 +658,12 @@
                         <a href="https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2020/12/lei-da-internet-das-coisas-e-sancionada-pelo-presidente-da-republica"> 
                             Lei da Internet das Coisas é sancionada pelo presidente da República
                         </a>.
-
+                        <br><br>
+                        <div style="text-align: right;">
+                        <router-link to="#TOP" @click.native="scrollTo('#TOP')">
+                            Voltar ao índice
+                        </router-link>
+                        </div>
 
                     </div>
 
@@ -1273,7 +1285,12 @@
                         [5] <a href="https://igarape.org.br/wp-content/uploads/2021/04/Agenda-Seguranca-Digital.pdf">
                             https://igarape.org.br/wp-content/uploads/2021/04/Agenda-Seguranca-Digital.pdf
                             </a>. <br>
-                        <br>
+                        <br><br>
+                        <div style="text-align: right;">
+                        <router-link to="#TOP" @click.native="scrollTo('#TOP')">
+                            Voltar ao índice
+                        </router-link>
+                        </div>
 
                     </div>
 
@@ -1509,7 +1526,12 @@
                         [10] <a href="https://www.jota.info/coberturas-especiais/inova-e-acao/stf-aposta-inteligencia-artificial-celeridade-processos-11122018">
                             https://www.jota.info/coberturas-especiais/inova-e-acao/stf-aposta-inteligencia-artificial-celeridade-processos-11122018
                         </a><br>
-                        <br>
+                        <br><br>
+                        <div style="text-align: right;">
+                        <router-link to="#TOP" @click.native="scrollTo('#TOP')">
+                            Voltar ao índice
+                        </router-link>
+                        </div>
 
                         
 
@@ -1581,16 +1603,22 @@
                         </a><br>
                         [3] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9610.htm">
                             http://www.planalto.gov.br/ccivil_03/leis/l9610.htm
-                            </a> <br>
+                        </a> <br>
                         [4] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9609.htm">
                             http://www.planalto.gov.br/ccivil_03/leis/l9609.htm
-                            </a> <br>
+                        </a> <br>
                         [5] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9279.htm">
                             http://www.planalto.gov.br/ccivil_03/leis/l9279.htm
-                            </a> <br>
+                        </a> <br>
                         [6] <a href="https://www.gov.br/inpi/pt-br/servicos/patentes/pagina_consultas-publicas/arquivos/copy_of_DiretrizesExame_InvencoesImplementadasComputadorversaoConsulta_07072020.pdf">
                             https://www.gov.br/inpi/pt-br/servicos/patentes/pagina_consultas-publicas/arquivos/copy_of_DiretrizesExame_InvencoesImplementadasComputadorversaoConsulta_07072020.pdf
-                            </a> <br>
+                        </a> <br>
+                        <br><br>
+                        <div style="text-align: right;">
+                        <router-link to="#TOP" @click.native="scrollTo('#TOP')">
+                            Voltar ao índice
+                        </router-link>
+                        </div>
 
 
                     </div>
@@ -1661,6 +1689,12 @@
                         [1] <a href="https://www.demarest.com.br/demarest-lanca-guia-de-boas-praticas-de-inteligencia-artificial">
                             https://www.demarest.com.br/demarest-lanca-guia-de-boas-praticas-de-inteligencia-artificial
                         </a><br>
+                        <br><br>
+                        <div style="text-align: right;">
+                        <router-link to="#TOP" @click.native="scrollTo('#TOP')">
+                            Voltar ao índice
+                        </router-link>
+                        </div>
 
                     </div>
                 </template>
@@ -1798,6 +1832,12 @@
                         </a><br>
                         [3] <a href="https://www.europarl.europa.eu/doceo/document/TA-9-2020-0275_PT.html">https://www.europarl.europa.eu/doceo/document/TA-9-2020-0275_PT.html
                         </a><br>
+                        <br><br>
+                        <div style="text-align: right;">
+                        <router-link to="#TOP" @click.native="scrollTo('#TOP')">
+                            Voltar ao índice
+                        </router-link>
+                        </div>
 
                     </div>
                 </template>
