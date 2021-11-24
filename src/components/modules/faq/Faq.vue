@@ -301,6 +301,77 @@
                                 </li>
                             </ol>
                         </p>
+                        <p>
+                            Ambiente regulatório e legislação aplicável à IA
+                            <ol>
+                                <li>
+                                    <router-link to="#LEGISLACAO-APLICAVEL" @click.native="scrollTo('#LEGISLACAO-APLICAVEL')">
+                                        Quais as legislações aplicáveis à IA?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#COMO-PROTEGER-IA" @click.native="scrollTo('#COMO-PROTEGER-IA')">
+                                        Como proteger a IA?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#COMO-DESENVOLVER-IA-LEGAL" @click.native="scrollTo('#COMO-DESENVOLVER-IA-LEGAL')">
+                                        Como desenvolver um projeto de IA em conformidade com a lei?
+                                    </router-link>
+                                </li>
+                                
+                            </ol>
+                        </p>
+                        <p>
+                            Boas práticas para implementação de IA
+                            <ol>
+                                <li>
+                                    <router-link to="#BOAS-PRATICAS-IA" @click.native="scrollTo('#BOAS-PRATICAS-IA')">
+                                        O que são boas práticas em IA?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#ANALISE-IMPACTO-AVALIACAO-RISCOS" @click.native="scrollTo('#ANALISE-IMPACTO-AVALIACAO-RISCOS')">
+                                        O que é uma análise de impacto e avaliação de riscos?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#AUDITORIA-ALGORITMOS" @click.native="scrollTo('#AUDITORIA-ALGORITMOS')">
+                                        O que seria auditoria de algoritmos?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#EQUIPE-IA" @click.native="scrollTo('#EQUIPE-IA')">
+                                        Como deve ser a equipe responsável pela tecnologia de IA na organização?
+                                    </router-link>
+                                </li>
+                            </ol>
+                        </p>
+                        <p>
+                            Governança de algoritmos e princípios éticos na implementação de IA
+                            <ol>
+                                <li>
+                                    <router-link to="#PRINCIPIOS-ETICOS-IA" @click.native="scrollTo('#PRINCIPIOS-ETICOS-IA')">
+                                        Quais os princípios éticos orientadores da IA?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#CRITERIO-INTERNACIONAL" @click.native="scrollTo('#CRITERIO-INTERNACIONAL')">
+                                        As organizações devem seguir algum critério internacional obrigatoriamente?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#ACCOUNTABILITY" @click.native="scrollTo('#ACCOUNTABILITY')">
+                                        O que significa "accountability", ligada à responsabilidade por quaisquer erros ou falhas da Inteligência Artificial (IA)?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#GOVERNANCA-BRASIL" @click.native="scrollTo('#GOVERNANCA-BRASIL')">
+                                        Como a governança de IA deve ser feita no Brasil?
+                                    </router-link>
+                                </li>
+                            </ol>
+                        </p>
                         
 
                      </div>
@@ -1465,11 +1536,292 @@
                 </template>
             </Card>
 
+            <br><br><br><br>
 
 
-        <!--a href="#TESTE"> FUnciona </a><br> -> esse só funciona com href + Name
+            <Card :title="'Ambiente regulatório e legislação aplicável à IA'">
+                
+                <template v-slot:cardText>
+                    <div class="black--text">
+                        <div id="LEGISLACAO-APLICAVEL" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> Quais as legislações aplicáveis à IA?</h2>
+                        <br>
 
-        <router-link to="#TESTE" @click.native="scrollTo('#TESTE')">Será?</router-link -> esse funciona só com div + ID -->
+                        <p>
+                            Ainda não há uma legislação específica sobre IA no Brasil. Algumas propostas de lei tramitam, tanto no parlamento brasileiro, como no europeu, os quais buscam traçar regras e princípios éticos de como usar IA respeitando direitos fundamentais das pessoas. No cenário brasileiro, destaca-se o Projeto de Lei 21/2020, aprovado no final de setembro de 2021 na Câmara dos Deputados. 
+                        </p>
+                        <p>
+                            Porém, como a IA é uma ferramenta tecnológica que utiliza dados, muitas vezes pessoais, e, em grande parte do tempo, é desenvolvida para serviços no ambiente digital, podem ser aplicáveis a Lei Geral de Proteção de Dados (LGPD) e o Marco Civil da Internet. Essas leis regulam, a partir de diferentes perspectivas (a primeira visa a garantia de proteção de dados pessoais e a segunda, a observância de princípios mais gerais relacionados ao ambiente digital), o desenvolvimento e o uso de ferramentas digitais tanto na Administração Pública quanto no setor privado. 
+                        </p>
+                        <p>
+                            Recentemente, foi lançada, através da Portaria nº 4.617/2021, a Estratégia Brasileira de Inteligência Artificial (EBIA), que é um documento importante para se planejar os rumos da IA no Brasil. Apesar de a EBIA não ter seguido a linha de documentos internacionais mais robustos, tais como os relatórios e propostas de regulação da União Europeia, ainda é um importante marco legal.
+                        </p>
+                        <p>
+                            Além disso, deve-se observar a legislação local e o regimento do órgão que aplicará a IA. Por fim, a depender do contexto de utilização, há outras legislações que podem ser aplicadas, como regras de direito do consumidor, resoluções do Banco Central e regras de propriedade intelectual. 
+                        </p>
+
+                        <div id="COMO-PROTEGER-IA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> Como proteger a IA?</h2>
+                        <br>
+
+                        <p>
+                            Para proteger a IA enquanto criação, é muito importante conhecer as leis de Propriedade Intelectual (PI), pois elas estabelecem regras sobre quem é o "dono" da aplicação de inteligência artificial, definindo quais usos estão permitidos ou quais mecanismos devemos acionar em caso de violação dos direitos intelectuais. Uma das três principais leis de PI, a Lei de Direitos Autorais (LDA), Lei 9.610/98, surgiu para proteger aquelas criações intelectuais que possuem uma finalidade meramente estética, tais como um livro, uma música ou um quadro. Mesmo tendo esse viés artístico, não se engane: a LDA pode ter a ver com IA. É que a Lei de Direitos Autorais também considera os programas de computador como criações intelectuais protegidas pelo Direito de Autor. Segundo a lei, os programas de computador assemelham-se aos textos literários e, portanto, passíveis de proteção pelo Direito Autoral. 
+                        </p>
+                        <p>
+                            Por serem muito específicos, os programas de computador acabaram ganhando uma lei própria, a chamada Lei de Software (Lei 9.609/98), que estabeleceu regras e procedimentos para proteção desse tipo de tecnologia. Em resumo, ela define o que são programas de computador - um conceito tão abrangente que abarca diversas aplicações de IA - e permite um regime especial de cessão dos direitos intelectuais de softwares desenvolvidos sob encomenda. No âmbito do poder público, essa lei estabelece condições para que os direitos intelectuais de um programa de computador criado por um servidor público, sob a égide da sua função, sejam de titularidade do Poder Público.
+                        </p>
+                        <p>
+                            Já a Lei de Propriedade Industrial (Lei 9.279/96) é destinada a proteger aquelas criações intelectuais que possuem finalidade comercial/industrial, tais como as invenções tecnológicas. Essa lei traz diversos mecanismos de proteção aos direitos intelectuais, tais como o segredo industrial, a concorrência desleal e as patentes. As patentes, vale destacar, são mecanismos destinados à proteção das invenções (ou modelos de utilidade), a qual se concede ao inventor uma exclusividade na exploração econômica daquela criação por um prazo determinado. Para que uma patente seja concedida, é fundamental que haja a junção de três elementos caracterizadores de uma invenção: novidade, atividade inventiva e aplicação industrial, de acordo com o art. 8º da lei.
+                        </p>
+                        <p>
+                            Por conta desse viés monopolista, que impede o uso não autorizado de terceiros, é cada vez mais crescente os pedidos de patentes de invenções que utilizam soluções de IA, mas é necessário, além de preencher os requisitos legais, ficar atento às orientações do Instituto Nacional de Propriedade Industrial, órgão responsável pela concessão dessas patentes. Ao pedir a patente de uma invenção junto ao INPI, é necessário descrever e tornar pública todas as etapas e procedimentos que levaram àquela solução tecnológica. Noutras palavras, a patente, quando concedida, cria um monopólio temporal ao criador, mas, por outro lado, se torna obrigatório publicizar o passo a passo daquela invenção. Por isso, muitas organizações optam por proteger suas invenções através do segredo, em vez das citadas patentes, valendo-se, ainda, da concorrência desleal, toda vez que sentir ameaça à sua propriedade intelectual.
+                        </p>
+
+                        <div id="COMO-DESENVOLVER-IA-LEGAL" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> Como desenvolver um projeto de IA em conformidade com a lei? </h2>
+                        <br>
+
+
+                        <p>
+                            Deve-se observar a legislação vigente, sobretudo a LGPD e o Marco Civil da Internet para desenvolver ou usar qualquer iniciativa de IA. Criada em 2004, a Lei de Inovação1 é bastante importante para a implementação de projetos de IA, pois criou mecanismos para Administração Pública lidar com os riscos de tais projetos, os quais envolvem temas de grande complexidade. Nessa lei, há uma categoria legal em que se encaixa a IA, chamada “Encomenda tecnológica” (ETEC), que se constitui como quaisquer Tecnologias de Informação e Comunicação a serem contratadas por órgãos do Poder Público, “que envolvam risco tecnológico, para solução de problema técnico específico ou obtenção de produto, serviço ou processo inovador” (caput do artigo com redação dada pela Lei nº 13.243, de 11/1/2016). Em dezembro de 2020, o Tribunal de Contas da União lançou uma publicação intitulada “Etapa de Negociação em Contratações por Encomenda Tecnológica”. Esse texto consiste em instruções acerca desse tipo de encomenda, que reúne “referências legais e técnicas para a etapa de negociação com fornecedores” (TCU, 2020, p.1) desse tipo de produto, o que pode ajudar os gestores a lidar com todo o processo burocrático que a implementação desse tipo de inovação requer. 
+                        </p>
+
+                        <br>
+                        Veja mais em:<br>
+                        [1] <a href="https://portal.tcu.gov.br/data/files/8E/C1/63/06/3F3477100CE24177F18818A8/ETEC_negociacao_encomenda_tecnologica.pdf ">
+                            https://portal.tcu.gov.br/data/files/8E/C1/63/06/3F3477100CE24177F18818A8/ETEC_negociacao_encomenda_tecnologica.pdf 
+                        </a><br>
+                        [2] <a href="https://www.in.gov.br/en/web/dou/-/portaria-gm-n-4.617-de-6-de-abril-de-2021-*-313212172">
+                            https://www.in.gov.br/en/web/dou/-/portaria-gm-n-4.617-de-6-de-abril-de-2021-*-313212172
+                        </a><br>
+                        [3] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9610.htm">
+                            http://www.planalto.gov.br/ccivil_03/leis/l9610.htm
+                            </a> <br>
+                        [4] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9609.htm">
+                            http://www.planalto.gov.br/ccivil_03/leis/l9609.htm
+                            </a> <br>
+                        [5] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9279.htm">
+                            http://www.planalto.gov.br/ccivil_03/leis/l9279.htm
+                            </a> <br>
+                        [6] <a href="https://www.gov.br/inpi/pt-br/servicos/patentes/pagina_consultas-publicas/arquivos/copy_of_DiretrizesExame_InvencoesImplementadasComputadorversaoConsulta_07072020.pdf">
+                            https://www.gov.br/inpi/pt-br/servicos/patentes/pagina_consultas-publicas/arquivos/copy_of_DiretrizesExame_InvencoesImplementadasComputadorversaoConsulta_07072020.pdf
+                            </a> <br>
+
+
+                    </div>
+                </template>
+            </Card>
+
+            <br><br><br><br>
+
+            <Card :title="'Boas práticas para implementação de IA'">
+                
+                <template v-slot:cardText>
+                    <div class="black--text">
+
+                        <div id="BOAS-PRATICAS-IA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> O que são boas práticas em IA?</h2>
+                        <br>
+                        
+                        <p>
+                            As boas-práticas são medidas relacionadas a princípios éticos que devem ser consideradas em todas as etapas do ciclo de vida da inteligência artificial aplicada na prática, do desenvolvimento até o efetivo uso. Primeiramente, é fundamental que haja a construção de uma cultura de dados e de atuação ética, responsável e confiável no âmbito da IA. Apesar de regras de privacidade e proteção de dados pessoais estarem positivadas na LGPD, é essencial que a proteção dos dados passe a fazer parte da rotina das organizações e das pessoas. Essa cultura não abrange apenas aspectos relacionados aos dados, mas principalmente respeito aos princípios éticos da IA.
+                        </p>
+                        <p>
+                            Em um segundo momento, é essencial que haja mapeamento interno e definição estratégia. Para desenvolver uma cultura de IA ética, é essencial que haja o mapeamento interno, isto é, antes de aplicar mudanças e incluir a tecnologia de IA, é fundamental definir os objetivos almejados, estratégias, ferramentas e infraestrutura disponíveis, níveis de qualificação e possíveis problemas. Em outras palavras, as ferramentas de IA devem se direcionar a questões específicas e conjuntamente com apoio multissetorial. É fundamental que essa etapa ocorra de forma rotineira.
+                        </p>
+                        <p>
+                            Além disso, é indispensável que haja uma equipe responsável pela implementação da IA, encarregado do planejamento, acompanhamento e execução. Essa equipe deve ser multissetorial e multidisciplinar, incluindo engenheiros, cientistas de dados, gerentes de produtos, analistas de marketing, encarregado de tratamento de dados pessoais e uma equipe diversa de juristas. Isso pode ser feito também pela contratação de empresas ou funcionários terceirizados. É essencial que essa equipe seja o mais diversa possível, especialmente no que tange à diversidade de raça e gênero. A equipe deve ser capacitada e treinada para melhor entender a tecnologia de IA que se visa implementar.
+                        </p>
+                        <p>
+                            Além disso, outras boas práticas são: criação de políticas de privacidade e de dados abrangentes; análise de impacto e avaliação de riscos; auditoria de algoritmos; elaboração de relatórios. Em resumo, são medidas relacionadas aos princípios éticos, como transparência, segurança, prestação de contas, proteção de dados e explicabilidade, o que deve ser cumprido desde o início do planejamento da incorporação da IA até o seu efetivo uso.
+                        </p>
+
+
+                        <div id="ANALISE-IMPACTO-AVALIACAO-RISCOS" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> O que é uma análise de impacto e avaliação de riscos?</h2>
+                        <br>
+
+                        <p>
+                            A IA pode ser muito benéfica para a sociedade, porém, é também capaz de produzir alguns danos, o que faz com que seja essencial que haja sempre processos de identificação de riscos e ações de mitigação, de forma preventiva. Nesse cenário, podemos falar de alguns níveis de risco que vão variar de acordo com as dificuldades para superá-los e a probabilidade de causarem danos. Cada tecnologia de IA é utilizada em um determinado contexto, o que faz com que haja níveis diferentes de risco de acordo com as circunstâncias do caso concreto, por exemplo, a partir da análise da categoria de dados utilizados, pessoas afetadas, impactos possíveis e campo de aplicação.
+                        </p>
+
+                        <p>
+                            A partir da detecção do nível de risco (baixo, médio ou alto), é essencial que sejam implementadas medidas de mitigação, o que pode incluir, por exemplo, cumprimento de regras de proteção de dados e cibersegurança, atualização dos sistemas, auditorias contra vieses discriminatórios, técnicas de anonimização, entre outros.
+                        </p>
+
+
+                        <div id="AUDITORIA-ALGORITMOS" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> O que seria auditoria de algoritmos?</h2>
+                        <br>
+
+                        <p>
+                            A auditoria de algoritmos é essencial para garantir maior transparência e prestação de contas, pois visa avaliar a consistência dos modelos de IA em relação aos princípios éticos e normas vigentes, com foco especial para revisão dos códigos e nos impactos dos resultados dos algoritmos. É um mecanismo de governança e compliance direcionado para a IA, de forma a avaliar o respeito a regras jurídicas e adequação das técnicas e exigências de cibersegurança. Essa auditoria deve ser realizada por uma entidade independente da organização que visa implementar a tecnologia. É essencial que a auditoria de algoritmos seja um processo constante dentro da organização.
+                        </p>
+
+
+                        <div id="EQUIPE-IA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> Como deve ser a equipe responsável pela tecnologia de IA na organização?</h2>
+                        <br>
+
+                        <p>
+                            É essencial que haja uma equipe responsável pela IA dentro da organização, que deve ser a mais diversa e capacitada possível. Por isso, deve haver profissionais de diferentes áreas, como engenheiros, cientistas de dados, especialistas em ética, marketing e publicidade, encarregado de proteção de dados e equipe jurídica ampla. A organização apenas se beneficia de um corpo profissional de formação diversa e experiências distintas, inclusive quanto à diversidade de raça e gênero. Isso torna possível que haja diferentes perspectivas, o que será positivo na identificação de riscos e aplicação de medidas de mitigação mais eficientes. Essa diversidade é também essencial para detectar e prevenir vieses de gênero, raça, idade, nacionalidade, entre outros, o que efetiva o princípio da transparência. 
+                        </p>
+
+                         <br>
+                        Saiba mais em:<br>
+                        [1] <a href="https://www.demarest.com.br/demarest-lanca-guia-de-boas-praticas-de-inteligencia-artificial">
+                            https://www.demarest.com.br/demarest-lanca-guia-de-boas-praticas-de-inteligencia-artificial
+                        </a><br>
+
+                    </div>
+                </template>
+            </Card>
+
+            <br><br><br><br>
+
+            <Card :title="'Governança de algoritmos e princípios éticos na implementação de IA'">
+                
+                <template v-slot:cardText>
+                    <div class="black--text">
+
+                        <div id="PRINCIPIOS-ETICOS-IA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> Quais os princípios éticos orientadores da IA?</h2>
+                        <br>
+                        
+                        <p>
+                            Os princípios éticos devem orientar o desenvolvimento e aplicação dos sistemas de IA, desde seu design até o seu uso, respeitando a centralidade do ser humano. No Brasil, o uso ético é uma das finalidades da Estratégia Brasileira de Inteligência Artificial (EBIA), conforme dispõe o art.1º, I da Portaria nº 4.617/2021 do Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTI). São citados na Portaria: - Princípios da OCDE sobre Inteligência Artificial (2019).; - G20 - Declaração Ministerial sobre Comércio e Economia Digital - Princípios para IA Centrada nos Humanos (2019).; - Grupo Independente de Peritos de Alto Nível sobre a Inteligência Artificial criado pela Comissão Europeia em junho de 2018 - Orientações Éticas para uma IA de Confiança.; - A Declaração de Toronto: Protegendo os Direitos à Igualdade e à Não-Discriminação em Sistemas de Aprendizado por Máquinas (2018).;- Comunicação da Comissão Europeia: Inteligência Artificial para a Europa (2018).; - Diretrizes Universais para Inteligência Artificial (Public Voice Coalition, 2018).;- Declaração sobre Ética e Proteção de Dados em Inteligência Artificial (ICDPPC, 2018).- Asilomar AI Principles (2017). 
+                        </p>
+                        <p>
+                            A EBIA tem como um dos seus objetivos "contribuir para a elaboração de princípios éticos para o desenvolvimento e uso de IA responsáveis", mencionando (mas não determinando) alguns princípios éticos que podem ser observados, tais como: i. crescimento inclusivo, desenvolvimento sustentável e bem-estar; ii. valores centrados no ser humano e equidade; iii. transparência e explicabilidade; iv. Robustez, segurança e proteção. 
+                        </p>
+                        <p>
+                            Além dos princípios extraídos do "Recommendation of the Council on Artificial Intelligence" da OCDE, mencionados no anexo da Portaria nº 4.617/2021, no atual debate internacional, há uma grande lista de princípios gerais humanocêntricos para o desenvolvimento tecnológico, que podem ser sintetizados na seguinte lista: transparência, justiça, não maleficência, responsabilidade, privacidade, beneficência, autonomia, confiança, dignidade, sustentabilidade e solidariedade.
+                        </p>
+                        <p>
+                            <b>Transparência</b>: inclui principalmente ações para promover a explicabilidade e interpretabilidade da IA, além de outros esforços de comunicação para os usuários;
+                        </p>
+                        <p>
+                            <b>Equidade</b>: por um lado, está amplamente relacionada aos conceitos de prevenção, monitoramento e redução de discriminação e preconceitos indesejados. Por outro lado, também está relacionada à oportunidade de interpelar ou contestar decisões, além do direito de reparação;
+                        </p>
+                        <p>
+                            <b>Não maleficência</b>: abrange noções de segurança e proteção. É um agir negativo da tecnologia. Relaciona-se ao fato de que a IA nunca deve causar danos previsíveis ou não intencionais e exige estratégias de gerenciamento de risco;
+                        </p>
+                        <p>
+                            <b>Responsabilidade</b>: os esforços para delimitar o significado deste princípio incluem atuar com responsabilidade e integridade no uso e desenvolvimento da IA, reconhecendo também a responsabilidade legal dos agentes envolvidos em sua criação e apresentação ao mercado;
+                        </p>
+                        <p>
+                            <b>Privacidade</b>: a privacidade está frequentemente ligada a noções de proteção e segurança de dados, fornecendo diretrizes para o desenvolvimento de medidas como: privacidade garantida desde o design das ferramentas, minimização de dados e controle de acesso;
+                        </p>
+                        <p>
+                            <b>Beneficência</b>: este conceito é frequentemente mencionado, apesar de sua definição ser ainda incerta. Há algum consenso no sentido de este princípio se relacionar à não maleficência, do ponto de vista diretamente contrário. Ou seja, trata-se de uma ação positiva da tecnologia no sentido de fomentar a valorização dos sentidos humanos, a promoção do bem-estar humano, o desenvolvimento de oportunidades socioeconômicas, paz e felicidade;
+                        </p>
+                        <p>
+                            <b>Autonomia</b>: principalmente relacionada à liberdade de expressão, autodeterminação informacional e mecanismos de proteção da privacidade do usuário. Também pode se relacionar à promoção da liberdade, capacitação e autodeterminação;
+                        </p>
+                        <p>
+                            <b>Confiança</b>: destaca a importância da confiança dos clientes nas recomendações, julgamentos e utilizações da IA. Também pode incluir questões de educação, confiabilidade, responsabilidade, processos de monitoramento e avaliação da integridade do projeto da IA, para garantir a conformidade com normas e padrões;
+                        </p>
+                        <p>
+                            <b>Dignidade</b>: entrelaçado com os direitos humanos, o princípio da dignidade neste contexto orienta que a IA deve respeitar e preservar a dignidade humana;
+                        </p>
+                        <p>
+                            <b>Sustentabilidade</b>: Espera-se que a IA afete diversas práticas e contextos, modificando a forma como os indivíduos vivem e impactando o meio ambiente. Nesse sentido, a sustentabilidade exige uma regulamentação e implementação de IA capaz de direcionar o vasto potencial da tecnologia para o maior benefício de indivíduos e do meio ambiente; e
+                        </p>
+                        <p>
+                            <b>Solidariedade</b>: tem como foco a sociedade como um todo e aborda temas como a redistribuição de benefícios gerados pela tecnologia para que a coesão social não seja prejudicada. Relaciona-se também à proteção e respeito a grupos sociais vulneráveis - como as crianças e adolescentes.
+                        </p>
+
+
+                        <div id="CRITERIO-INTERNACIONAL" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> As organizações devem seguir algum critério internacional obrigatoriamente?</h2>
+                        <br>
+
+
+                        <p>
+                            O Brasil lançou, recentemente, através da Portaria nº 4.617/2021, a Estratégia Brasileira de Inteligência Artificial (EBIA). Uma das críticas que têm sido feitas à EBIA é a falta de ações de concretização e governança; que ela peca por ser demasiadamente abstrata, já que elenca ações estratégicas como "Estruturar ecossistemas de governança do uso da IA, tanto no setor público quanto no setor privado", mas não indica exatamente como fazê-lo. 
+                        </p>
+                        <p>
+                            É nessa linha que documentos como os relatórios e propostas de regulação da União Europeia sobre temas como responsabilidade dos sistemas de IA são bons norteadores, pois, apesar de não serem aplicáveis ao nosso ordenamento jurídico como normas, são relevantes como boas práticas. Ao tratarem da aplicação de IA em situações concretas, tais como: a utilização deste tipo de sistemas em armas letais, veículos autônomos, na medicina, etc., podem ajudar o servidor público brasileiro a estruturar melhor as políticas de governança a serem adotadas.
+                        </p>
+                        <p>
+                            Tendo em conta que a EBIA é criticada por ser demasiadamente genérica, elencando ações estratégicas como "Estruturar ecossistemas de governança do uso da IA, tanto no setor público quanto no setor privado", mas sem indicar propriamente como, uma das formas de efetivar o que está previsto neste documento é, de fato, recorrer a outros documentos que tenham desenvolvido mais detalhadamente o assunto. Um destes materiais é a Proposta de Regulamento em matéria de IA da União Europeia. Esta Proposta, no seu art. 10, estabelece que as práticas de governança em sistemas de alto risco devem ser particularmente exigentes, e devem perpassar as escolhas na estrutura do design; uma avaliação da quantidade e serventia, para aquela finalidade, dos dados a serem coletados; a identificação e eliminação de enviesamentos; entre outros (art. 10/2, diversas alíneas). 
+                        </p>
+                        <p>
+                            O conceito de alto risco acima citado, que também pode ser útil para os servidores brasileiros, vem também desenvolvido em outro texto, a Proposta de Regime de responsabilidade civil aplicável à IA, e envolve o uso de armas letais, veículos autônomos e a aplicação de IA na medicina. Ele é aplicável ao emprego de IA em usos particularmente sensíveis e implica um regime de responsabilização mais gravoso, o que pode ter relação com os mecanismos de governança a serem adotados dentro das nossas fronteiras, para servir de norte, de modo a evitar eventuais responsabilizações futuras, caso o Brasil venha a adotar regime semelhante.
+                        </p>
+                        <p>
+                            Ademais, de volta à Proposta de Regulamento sobre a IA, o art. 18 estabelece uma obrigação, para os operadores de sistemas de alto risco, de se preparar toda a documentação acerca de governança; e o título VI do instrumento, que contém os arts. 56 a 58, estabelece como deve ser criado e estruturado um Conselho Europeu de IA, que servirá, dentre outros, para implementar estas estruturas de governança, exemplo que pode ser seguido pelo Brasil. 
+                        </p>
+                        <p>
+                            Outro documento que pode ser útil é a Proposta de Regime relativo aos aspectos éticos da IA, da robótica e das tecnologias conexas, que estabelece, em seus arts. 18 e seguintes, que as normas de governança devem ser desenvolvidas e aplicadas, de preferência, a nível coordenado em toda a União Europeia.
+                        </p>
+
+
+                        <div id="ACCOUNTABILITY" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> O que significa "accountability", ligada à responsabilidade por quaisquer erros ou falhas da Inteligência Artificial (IA)?   </h2>
+                        <br>
+
+                        <p>
+                            O termo não tem uma tradução exata para a nossa língua, mas, de acordo com a Estratégia Brasileira de Inteligência Artificial (EBIA), significa responsabilidade e prestação de contas no uso dos sistemas de IA seguindo uma lógica de transparência no processamento dos dados utilizados, e tomando como norte, sempre, o princípio da precaução. Este princípio significa que é preciso, na utilização de IA por parte do setor público, ter o máximo de cuidado e ser previdente, evitando situações que apresentem risco para os dados processados e, consequentemente, para os seus titulares. 
+                        </p>
+                        <p>
+                            Para concretizar a "accountability" e o princípio da precaução, a EBIA fala na intervenção regulatória proporcional ao grau de risco relacionado a determinada aplicação da IA. Em outras palavras, devem existir mais regras que guiem o uso dos sistemas quanto mais arriscado este uso for. 
+                        </p>
+                        <p>
+                            A ideia também é ligada a limitações restritas a usos específicos, assim como à necessidade de envolver o maior número de interessados possíveis, para assegurar a imparcialidade. 
+                        </p>
+                        <p>
+                            A Estratégia sugere, ainda, para ajudar a concretizar o processo, que se criem selos, certificados e afins, que permitam assegurar com mais objetividade quando um sistema é confiável. 
+                        </p>
+                        <p>
+                            Portanto, apesar de ser um conceito ligado à responsabilidade - ou seja, à lógica de responder por algum prejuízo causado -, a "accountability", tal como trazida pela EBIA, preza por um comportamento preventivo, de maneira que se evitem danos.
+                        </p>
+
+
+                        <div id="GOVERNANCA-BRASIL" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> Como a governança de IA deve ser feita no Brasil?</h2>
+                        <br>
+
+                        <p>
+                            De acordo com a Estratégia Brasileira de Inteligência Artificial (EBIA), é fundamental na utilização dos sistemas de IA combater o enviesamento dos dados inseridos. Isso significa que é preciso lutar contra alguma tendência que o algoritmo possa ter em direção a uma resposta ou outra, como no caso de um dado viciado num jogo de tabuleiro. 
+                        </p>
+                        <p>
+                            A EBIA também diz que é importante poder rastrear como o sistema chegou à determinada conclusão, o que tem relação com os princípios, consagrados no documento, da transparência e da explicabilidade.
+                        </p>
+                        <p>
+                            Outra ideia importante é a de fazer rotinas de gestão de risco dos sistemas ao longo de todo o seu ciclo de vida, mas também incorporar princípios éticos desde o começo da configuração da IA. Ou seja, por mais que seja importante avaliar quão arriscado será o seu uso num determinado caso, é preciso minimizar estes riscos no momento da programação, por meio da incorporação de dados corretos, como explicado acima, e também de princípios éticos - alguns são a transparência e a explicabilidade já mencionadas, mas também há outros, como a não-discriminação. 
+                        </p>
+                        <p>
+                            A governança, por fim, ainda envolve ações como: promover a conscientização sobre a IA; fazer relatórios de impacto; e designar grupos específicos de pessoas com estas tarefas.
+                        </p>
+
+                        <br>
+                        Saiba mais sobre isso em:<br>
+                        [1] <a href="https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/arquivosinteligenciaartificial/ia_estrategia_doc_referencia.pdf">
+                            https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/arquivosinteligenciaartificial/ia_estrategia_doc_referencia.pdf
+                        </a><br>
+                        [2] <a href="https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-laying-down-harmonised-rules-artificial-intelligence">
+                            https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-laying-down-harmonised-rules-artificial-intelligence
+                        </a><br>
+                        [3] <a href="https://www.europarl.europa.eu/doceo/document/TA-9-2020-0275_PT.html">https://www.europarl.europa.eu/doceo/document/TA-9-2020-0275_PT.html
+                        </a><br>
+
+                    </div>
+                </template>
+            </Card>
+            
+
 
         </v-container>
     </div>
