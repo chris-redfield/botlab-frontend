@@ -25,11 +25,6 @@
                                         Quais as técnicas de Inteligência Artificial?
                                     </router-link>
                                 </li>
-                                <li>
-                                    <router-link to="#IA-FRACA-IA-FORTE" @click.native="scrollTo('#IA-FRACA-IA-FORTE')">
-                                        O que é uma IA fraca? E IA forte?
-                                    </router-link>
-                                </li>
                                 
                             </ol>
                         </p>
@@ -459,19 +454,6 @@
                             </ol>
                         </p>
 
-                        <div id="IA-FRACA-IA-FORTE" style="visibility:hidden">#</div>
-                        <br>
-                        <h2> O que é uma IA fraca? E IA forte?</h2>
-                        <br>
-
-                        <p>
-                            IA fraca ou “narrow AI” - o que está atualmente em uso - é a aplicação de inteligência artificial de tarefa única 
-                            para usos como reconhecimento de imagem, tradução de linguagem e veículos autônomos. As máquinas atualmente 
-                            funcionam com mais precisão do que os humanos nesses tipos de tarefas. No futuro, os pesquisadores esperam 
-                            alcançar a IA forte ou uma IA geral. Isso envolveria sistemas que exibem comportamento inteligente em uma 
-                            série de tarefas cognitivas. No entanto, os pesquisadores não estimam que essas capacidades serão alcançadas 
-                            por pelo menos décadas.[2]
-                        </p>
 
                         <br>
                         Referências:<br>
