@@ -54,6 +54,12 @@ const routes = [
         component: () => import('../components/modules/faq/Faq.vue'),
         beforeEnter: auth
     },
+    {
+        path: '/quem-somos',
+        name: 'Quem',
+        component: () => import('../components/modules/about/Quem.vue'),
+        beforeEnter: auth
+    },
 ];
 
 

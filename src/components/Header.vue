@@ -60,9 +60,10 @@
                                 tile
                                 text
                                 color="#9c9ca6"
-                                :class="{ 'underline-button': hover }"
+                                :class="{ 'underline-button': verifyRoute(hover, '/quem-somos')}"
+                                @click="changeRoute('/quem-somos')"
                             >
-                                Contatos
+                                Quem Somos
                             </v-btn>
                         </v-hover>
                     </v-col>
