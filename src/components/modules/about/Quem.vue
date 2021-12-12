@@ -25,53 +25,75 @@
                         
 
                     <v-container class="text-center">
-                    <v-avatar
-                        style="margin-right:20px"
-                        class="elevation-12 mb-12"
-                        size="96"
-                    >
-                        <v-img src="@/assets/images/home/ferri.jpeg"></v-img>
-                    </v-avatar>
-                    
-                    <v-avatar
-                        style="margin-right:20px"
-                        class="elevation-12 mb-12"
-                        size="96"
-                    >
-                        <v-img src="@/assets/images/home/magrani.jpg"></v-img>
-                    </v-avatar>
+                        <div class="d-flex flex-row" style="margin-left:30px">
+                            <div class="d-flex flex-column text-center" >
+                                <v-avatar
+                                    style="margin-left:15px"
+                                    class="elevation-12 mb-12"
+                                    size="100"
+                                >
+                                    <v-img src="@/assets/images/home/ferri.jpeg"></v-img>
+                                    
+                                </v-avatar>
+                                <span class="caption grey--text">Cristiano Ferri</span>
+                            </div>
+                        
+                        <div class="d-flex flex-column text-center">
+                        <v-avatar
+                            style="margin-left:15px"
+                            class="elevation-12 mb-12"
+                            size="100"
+                        >
+                            <v-img src="@/assets/images/home/magrani.jpg"></v-img>
+                        </v-avatar>
+                        <span class="caption grey--text">Eduardo Magrani</span>
+                        </div>
 
-                    <v-avatar
-                        style="margin-right:20px"
-                        class="elevation-12 mb-12"
-                        size="96"
-                    >
-                        <v-img src="@/assets/images/home/chris.jpeg"></v-img>
-                    </v-avatar>
+                        <div class="d-flex flex-column text-center">
+                        <v-avatar
+                            style="margin-left:15px"
+                            class="elevation-12 mb-12"
+                            size="100"
+                        >
+                            <v-img src="@/assets/images/home/chris.jpeg"></v-img>
+                        </v-avatar>
+                        <span class="caption grey--text">Christian Miranda</span>
+                         </div>
 
-                    <v-avatar
-                        style="margin-right:20px"
-                        class="elevation-12 mb-12"
-                        size="96"
-                    >
-                        <v-img src="@/assets/images/home/andressa.jpeg"></v-img>
-                    </v-avatar>
+                        <div class="d-flex flex-column text-center">
+                        <v-avatar
+                            style="margin-left:15px"
+                            class="elevation-12 mb-12"
+                            size="100"
+                        >
+                            <v-img src="@/assets/images/home/andressa.jpeg"></v-img>
+                        </v-avatar>
+                        <span class="caption grey--text">Andressa</span>
+                         </div>
 
-                    <v-avatar
-                        style="margin-right:20px"
-                        class="elevation-12 mb-12"
-                        size="96"
-                    >
-                        <v-img src="@/assets/images/home/isabele.jpeg"></v-img>
-                    </v-avatar>
 
-                    <v-avatar
-                        style="margin-right:20px"
-                        class="elevation-12 mb-12"
-                        size="96"
-                    >
-                        <v-img src="@/assets/images/home/mario.jpeg"></v-img>
-                    </v-avatar>
+                        <div class="d-flex flex-column text-center">
+                        <v-avatar
+                            style="margin-left:15px"
+                            class="elevation-12 mb-12"
+                            size="100"
+                        >
+                            <v-img src="@/assets/images/home/isabele.jpeg"></v-img>
+                        </v-avatar>
+                        <span class="caption grey--text">Isabele</span>
+                        </div>
+
+                            <div class="d-flex flex-column text-center">
+                                <v-avatar
+                                    style="margin-left:15px"
+                                    class="elevation-12 mb-12"
+                                    size="100"
+                                >
+                                    <v-img src="@/assets/images/home/mario.jpeg"></v-img>
+                                </v-avatar>
+                                <span class="caption grey--text">Mário Pragmácio</span>
+                            </div>
+                        </div>
                     </v-container>
                     </div>
 
