@@ -105,8 +105,13 @@
                                     </router-link>
                                 </li>
                                 <li>
+                                    <router-link to="#DADO-ANONIMO-ANONIMIZADO" @click.native="scrollTo('#DADO-ANONIMO-ANONIMIZADO')">
+                                        O que é um dado anônimo ou anonimizado?
+                                    </router-link>
+                                </li>
+                                <li>
                                     <router-link to="#PRINCIPIOS-LGPD-TRATAMENTO-DADOS" @click.native="scrollTo('#PRINCIPIOS-LGPD-TRATAMENTO-DADOS')">
-                                        Quais os princípios descritos na LGPD devem orientar o tratamento de dados?
+                                        Quais princípios descritos na LGPD devem orientar o tratamento de dados?
                                     </router-link>
                                 </li>
                                 <li>
@@ -120,8 +125,18 @@
                                     </router-link>
                                 </li>
                                 <li>
+                                    <router-link to="#PODER-PUBLICO-SUJEITO-LGPD" @click.native="scrollTo('#PODER-PUBLICO-SUJEITO-LGPD')">
+                                        O poder público está sujeito à LGPD?
+                                    </router-link>
+                                </li>
+                                <li>
                                     <router-link to="#MUNICIPIO-COMPETENTE-LGPD" @click.native="scrollTo('#MUNICIPIO-COMPETENTE-LGPD')">
                                         O município é competente para tratar sobre Proteção de Dados?
+                                    </router-link>
+                                </li>
+                                <li>
+                                    <router-link to="#USO-COMPARTILHADO-ADM-PUBLICA" @click.native="scrollTo('#USO-COMPARTILHADO-ADM-PUBLICA')">
+                                        É possível o uso compartilhado de dados entre órgãos da Administração Pública?
                                     </router-link>
                                 </li>
                                 <li>
@@ -291,11 +306,6 @@
                                        Quais as leis que tratam de Propriedade Intelectual no Brasil?
                                     </router-link>
                                 </li>
-                                <li>
-                                    <router-link to="#AMEACAS-PROPRIEDADE-IMATERIAL" @click.native="scrollTo('#AMEACAS-PROPRIEDADE-IMATERIAL')">
-                                       Quais são as ameaças do direito de propriedade imaterial?
-                                    </router-link>
-                                </li>
                             </ol>
                         </p>
                         <p>
@@ -452,7 +462,7 @@
                                 <li>Visão computacional – é uma tecnologia utilizada para que a máquina reconheça imagens e vídeos para extrair
                                      dados e padrões.[3]</li>
                                 <li>Sistemas de recomendações – algoritmos utilizados para recomendação de conteúdos, produtos ou serviços com 
-                                    base no perfil de determinada pessoa.[1]</li>
+                                    base no perfil de determinada pessoa.[4]</li>
                             </ol>
                         </p>
 
@@ -526,20 +536,9 @@
                         <br>
                         <h2> O que pode ser feito com a Internet das Coisas?</h2>
                         <br>
-                        
 
                         <p>
-                           O conceito de IoT está intimamente ligado à ideia de “big data”, isto é, uma grande quantidade volumosa de dados 
-                           estruturados, semiestruturados ou não estruturados que podem ser explorados para obter novas informações. A combinação 
-                           desse grande volume de dados com a internet das coisas, por meio de objetos inteligentes, poderá alterar 
-                           significativamente a forma como vivemos. Por exemplo, poderão ser criadas soluções mais eficazes para problemas 
-                           já conhecidos, como poluição, congestionamento, eficiência produtiva, entre outros. Além disso, poderá trazer 
-                           muitos benefícios para os cidadãos enquanto consumidores, ao permitir a criação de produtos e serviços mais rápidos 
-                           e eficientes, trazendo maior conforto e comodidade.[1]
-                        </p>
-
-                        <p>
-                            O conceito de IoT está intimamente ligado à ideia de “big data”, isto é, uma grande quantidade volumosa de dados 
+                            O conceito de IoT está intimamente ligado à ideia de “big data”, isto é, uma grande quantidade de dados 
                             estruturados, semiestruturados ou não estruturados que podem ser explorados para obter novas informações. A 
                             combinação desse grande volume de dados com a internet das coisas, por meio de objetos inteligentes, poderá 
                             alterar significativamente a forma como vivemos. Por exemplo, poderão ser criadas soluções mais eficazes para 
@@ -681,7 +680,7 @@
                         <p>
                             A fim de garantir que dados públicos e dos cidadãos sejam tratados de maneira adequada, observando 
                             princípios legais, é necessário que o município que queira implementar ferramentas de Inteligência 
-                            Artificial esteja atento à legislação vigente, conforme já visto na conversa com o Assis. 
+                            Artificial esteja atento à legislação vigente. 
                             Desse modo, a primeira Lei a ser verificada é a nova Lei Geral de Proteção de Dados.
                         </p>
 
@@ -823,12 +822,18 @@
                         </p>
                         <p>
                             Quando falamos de pessoas jurídicas, inclusive de direito público, a organização é o agente de tratamento no 
-                            âmbito da LGPD, mesmo que as regras sejam executadas por ser representantes, funcionários ou prepostos. 
+                            âmbito da LGPD, mesmo que as regras sejam executadas por seus representantes, funcionários ou prepostos. 
                             Lembrando sempre que o operador deve ser uma entidade distinta do controlador, ou seja, que não atua como 
                             profissional subordinado a ele ou como membro de seus órgãos. Por isso, funcionários que atuam em 
-                            subordinação às decisões do controlador não serão operadores, mas meros funcionários.O que é um dado 
-                            anônimo ou anonimizado?
+                            subordinação às decisões do controlador não serão operadores, mas meros funcionários.
                         </p>
+
+                        <div id="DADO-ANONIMO-ANONIMIZADO" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> O que é um dado anônimo ou anonimizado?</h2>
+                        <br>
+                        
+                        
                         <p>
                             Dado anônimo ou anonimizado é definido pela LGPD, em seu Art. 5º, inciso III, como qualquer dado 
                             pessoal que, submetido a meios técnicos razoáveis, passe a não mais identificar ou a proporcionar a 
@@ -843,7 +848,7 @@
 
                         <div id="PRINCIPIOS-LGPD-TRATAMENTO-DADOS" style="visibility:hidden">#</div>
                         <br>
-                        <h2> Quais os princípios descritos na LGPD devem orientar o tratamento de dados?</h2>
+                        <h2> Quais princípios descritos na LGPD devem orientar o tratamento de dados?</h2>
                         <br>
 
                         <p>
@@ -877,10 +882,6 @@
                             o consentimento do titular.
                         </p>
                         <p>
-                            Ademais, a Lei Geral de Proteção de Dados (LGPD) estabelece, em seu Art. 8º, que o titular dos dados 
-                            poderá, a qualquer momento, revogar seu consentimento.
-                        </p>
-                        <p>
                             Por fim, a LGPD estabelece, em seu Art. 14, que o tratamento de dados pessoais de crianças e 
                             adolescentes deverá ser realizado em seu melhor interesse. Para tratamento de dados de crianças 
                             até 12 anos de idade, é necessário consentimento específico e em destaque, dado por, pelo menos, 
@@ -904,15 +905,20 @@
                         </p>
                         <p>
                             A LGPD prevê sanções para o seu descumprimento. A penalidade imposta irá depender da avaliação 
-                            Autoridade Nacional de Proteção de Dados (ANPD), podendo ser, segundo o Art. 52 da LGPD, uma 
+                            da Autoridade Nacional de Proteção de Dados (ANPD), podendo ser, segundo o Art. 52 da LGPD, uma 
                             advertência, a determinação da publicação e divulgação da infração cometida, o bloqueio ou 
                             eliminação dos dados que sofreram violações e também multas simples e/ou diárias.
                         </p>
                         <p>
                             Recentemente, em 28 de outubro de 2021, foi aprovada a Resolução CD/ANPD nº 1 que regulamenta 
-                            o Processo de Fiscalização e o Processo Administrativo Sancionador no âmbito da ANPD.O poder 
-                            público está sujeito à LGPD?
+                            o Processo de Fiscalização e o Processo Administrativo Sancionador no âmbito da ANPD.
                         </p>
+
+                        <div id="PODER-PUBLICO-SUJEITO-LGPD" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> O poder público está sujeito à LGPD?</h2>
+                        <br>
+                        
                         <p>
                             Sim, os dados pessoais tratados pelo Poder Público também estarão sujeitos à LGPD. Porém, o 
                             Poder Público, pode tratar dados pessoais sem pedir o consentimento do titular sempre que for 
@@ -938,9 +944,15 @@
                             atualmente, cabe à União as competências de organizar e fiscalizar o tratamento dos 
                             dados pessoais dos indivíduos, oferecendo agora “abrigo constitucional” ao funcionamento 
                             da Autoridade Nacional de Proteção de Dados (ANPD), prevista na Lei Geral de Proteção de 
-                            Dados Pessoais (LGPD – Lei 13.709, de 2018).É possível o uso compartilhado de dados entre 
-                            órgãos da Administração Pública?
+                            Dados Pessoais (LGPD – Lei 13.709, de 2018)
                         </p>
+                            
+
+                        <div id="USO-COMPARTILHADO-ADM-PUBLICA" style="visibility:hidden">#</div>
+                        <br>
+                        <h2> É possível o uso compartilhado de dados entre órgãos da Administração Pública?</h2>
+                        <br>
+
                         <p>
                             A LGPD permite o uso compartilhado de dados pessoais entre entes do poder público, desde 
                             que atenda a finalidades específicas de execução de políticas públicas e a atribuição legal 
@@ -1360,8 +1372,6 @@
                         <p>
                             Nosso direito de propriedade intelectual, especificamente no caso de direito autoral, exige que haja um 
                             autor para atribuição de autoria. Em outras palavras, a lei dispõe de respostas para os casos em que há 
-                            Nosso direito de propriedade intelectual, especificamente no caso de direito autoral, exige que haja um 
-                            autor para atribuição de autoria. Em outras palavras, a lei dispõe de respostas para os casos em que há 
                             vários os criadores de uma obra, mas não para o caso de não ser possível identificar quem a criou; e 
                             isso é um verdadeiro impasse. Isso porque, atualmente, a inteligência artificial tem a capacidade de 
                             “aprender a pensar” por si mesma – quando alimentada com certa quantidade e qualidade de dados, sendo, 
@@ -1372,20 +1382,8 @@
                             de dados e algoritmos que se condensam, o que recebe o nome de "deep learning" (aprendizado profundo; 
                             por isso usamos a palavra “aprofundando” anteriormente). Nesse contexto, pode ser difícil entender como 
                             a máquina chegou a um determinado resultado, o que é conhecido como o “efeito caixa-preta” (black-box), 
-                            já que ninguém sabe ao certo o que está dentro, ou por detrás, do mecanismo. E, sendo assim, é muito 
-                            difícil atribuir direitos de propriedade intelectual a quem estiver envolvido neste processo.vários os 
-                            criadores de uma obra, mas não para o caso de não ser possível identificar quem a criou; e isso é um 
-                            verdadeiro impasse. Isso porque, atualmente, a inteligência artificial tem a capacidade de “aprender 
-                            a pensar” por si mesma – quando alimentada com certa quantidade e qualidade de dados, sendo, ainda, 
-                            instruída no sentido daqueles dados conduzirem a um determinado resultado. Ela passa a percorrer este 
-                            caminho sozinha e vai respondendo a demandas mais complexas com base nesse conhecimento previamente 
-                            adquirido. É o que se chama de "machine learning" (aprendizado da máquina, em inglês). A distância 
-                            em relação ao ser humano pode ser ainda maior se este aprendizado for se aprofundando em diversas 
-                            camadas de dados e algoritmos que se condensam, o que recebe o nome de "deep learning" (aprendizado 
-                            profundo; por isso usamos a palavra “aprofundando” anteriormente). Nesse contexto, pode ser difícil 
-                            entender como a máquina chegou a um determinado resultado, o que é conhecido como o “efeito caixa-preta” 
-                            (black-box), já que ninguém sabe ao certo o que está dentro, ou por detrás, do mecanismo. E, sendo assim, 
-                            é muito difícil atribuir direitos de propriedade intelectual a quem estiver envolvido neste processo.
+                            já que ninguém sabe ao certo o que está dentro, ou por detrás, do mecanismo. 
+                            E, sendo assim, é muito difícil atribuir direitos de propriedade intelectual a quem estiver envolvido neste processo.
                         </p>
 
                         <div id="PROPRIEDADE-INTELECTUAL-IA-CONFLITANTES" style="visibility:hidden">#</div>
@@ -1483,17 +1481,6 @@
                             Nosso quadro legislativo já esteve compilado, mas, atualmente, não dispomos de um código de normas sobre propriedade intelectual - temos códigos para outros assuntos, como o civil, o penal e do trabalho. Nesse contexto, existem quatro leis importantes no universo brasileiro da propriedade intelectual que vale a pena ter em mente. São elas: a Lei nº 9.279/1996, sobre propriedade industrial; a Lei nº 9.456/1997, acerca de cultivares; a Lei nº 9.609/1998, que versa sobre software; e a Lei nº 9.610/1998, que se ocupa dos direitos autorais.
                         </p>
                         
-
-                        <div id="AMEACAS-PROPRIEDADE-IMATERIAL" style="visibility:hidden">#</div>
-                        <br>
-                        <h2>Quais são as ameaças do direito de propriedade imaterial?</h2>
-                        <br>
-
-                        
-                        <p>
-                            São ações perpetradas por grupos, indivíduos ou organizações com o intuito de prejudicar a imagem e/ou a reputação de uma organização, ou violar algum bem imaterial como segredo industrial ou patente.
-                        </p>
-
                         <br>
                         mais informações sobre esse conteúdo:<br>
                         [1] <a href="http://www.planalto.gov.br/ccivil_03/leis/l9609.htm">
@@ -1590,7 +1577,7 @@
 
 
                         <p>
-                            Deve-se observar a legislação vigente, sobretudo a LGPD e o Marco Civil da Internet para desenvolver ou usar qualquer iniciativa de IA. Criada em 2004, a Lei de Inovação1 é bastante importante para a implementação de projetos de IA, pois criou mecanismos para Administração Pública lidar com os riscos de tais projetos, os quais envolvem temas de grande complexidade. Nessa lei, há uma categoria legal em que se encaixa a IA, chamada “Encomenda tecnológica” (ETEC), que se constitui como quaisquer Tecnologias de Informação e Comunicação a serem contratadas por órgãos do Poder Público, “que envolvam risco tecnológico, para solução de problema técnico específico ou obtenção de produto, serviço ou processo inovador” (caput do artigo com redação dada pela Lei nº 13.243, de 11/1/2016). Em dezembro de 2020, o Tribunal de Contas da União lançou uma publicação intitulada “Etapa de Negociação em Contratações por Encomenda Tecnológica”. Esse texto consiste em instruções acerca desse tipo de encomenda, que reúne “referências legais e técnicas para a etapa de negociação com fornecedores” (TCU, 2020, p.1) desse tipo de produto, o que pode ajudar os gestores a lidar com todo o processo burocrático que a implementação desse tipo de inovação requer. 
+                            Deve-se observar a legislação vigente, sobretudo a LGPD e o Marco Civil da Internet para desenvolver ou usar qualquer iniciativa de IA. Criada em 2004, a Lei de Inovação é bastante importante para a implementação de projetos de IA, pois criou mecanismos para Administração Pública lidar com os riscos de tais projetos, os quais envolvem temas de grande complexidade. Nessa lei, há uma categoria legal em que se encaixa a IA, chamada “Encomenda tecnológica” (ETEC), que se constitui como quaisquer Tecnologias de Informação e Comunicação a serem contratadas por órgãos do Poder Público, “que envolvam risco tecnológico, para solução de problema técnico específico ou obtenção de produto, serviço ou processo inovador” (caput do artigo com redação dada pela Lei nº 13.243, de 11/1/2016). Em dezembro de 2020, o Tribunal de Contas da União lançou uma publicação intitulada “Etapa de Negociação em Contratações por Encomenda Tecnológica”. Esse texto consiste em instruções acerca desse tipo de encomenda, que reúne “referências legais e técnicas para a etapa de negociação com fornecedores” (TCU, 2020, p.1) desse tipo de produto, o que pode ajudar os gestores a lidar com todo o processo burocrático que a implementação desse tipo de inovação requer. 
                         </p>
 
                         <br>
