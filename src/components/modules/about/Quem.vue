@@ -68,7 +68,7 @@
                         >
                             <v-img src="@/assets/images/home/andressa.jpeg"></v-img>
                         </v-avatar>
-                        <span class="caption grey--text">Andressa</span>
+                        <span class="caption grey--text">Andressa Sousa</span>
                          </div>
 
 
