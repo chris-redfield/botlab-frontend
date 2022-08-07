@@ -8,6 +8,12 @@
     >
         <v-row align="center" justify="center">
             <div style="display: flex; align-items: center;">
+                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                    <img
+                        alt="Licença Creative Commons"
+                        style="border-width:0; margin-right: 70px;"
+                        src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+                </a>
                 <v-img
                     :src="logoOficinaMunicipal"
                     :width="logoOficinaMunicipalSize.width"
@@ -37,7 +43,7 @@ export default {
     },
     computed: {
         footerSize() {
-            if(this.$vuetify.breakpoint.smAndDown) {
+            if (this.$vuetify.breakpoint.smAndDown) {
                 return 74.2;
             }
             return 139;
@@ -47,7 +53,7 @@ export default {
                 height: 49,
                 width: 158,
             }
-            if(this.$vuetify.breakpoint.smAndDown) {
+            if (this.$vuetify.breakpoint.smAndDown) {
                 size.height = 26.16;
                 size.width = 84.34;
                 return size;
@@ -59,7 +65,7 @@ export default {
                 height: 98,
                 width: 230,
             }
-            if(this.$vuetify.breakpoint.smAndDown) {
+            if (this.$vuetify.breakpoint.smAndDown) {
                 size.height = 54.99;
                 size.width = 129.06;
                 return size;
