@@ -116,13 +116,13 @@ export default {
                 title: 'Isabele',
                 src: require('@/assets/images/home/isabele.jpeg'),
                 flex: 4,
-                linkedin: 'https://www.linkedin.com/in/m%C3%A1rio-pragm%C3%A1cio-13340436'
+                linkedin: '#'
             },
             {
                 title: 'Mário Pragmácio',
                 src: require('@/assets/images/home/mario.jpeg'),
                 flex: 4,
-                linkedin: ''
+                linkedin: 'https://www.linkedin.com/in/m%C3%A1rio-pragm%C3%A1cio-13340436'
             }
         ],
     }),
