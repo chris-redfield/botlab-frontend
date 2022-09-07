@@ -30,89 +30,47 @@
                         </p>
 
 
-                        <v-container class="text-center">
-                            <div class="d-flex flex-row" style="margin-left:30px">
-                                <div class="d-flex flex-column text-center">
-                                    <a href="https://br.linkedin.com/in/crisferri/pt">
-                                        <v-avatar
-                                            :elevation="hover ? 5 : 2" id="rounded-card"
-                                            style="margin-left:15px"
-                                            class="elevation-12 mb-12"
-                                            size="100"
-                                            href="href"
+                        <v-container fluid>
+                            <v-row dense>
+                                <v-col
+                                    v-for="card in cards"
+                                    :key="card.title"
+                                    :cols="card.flex"
+                                >
+                                    <v-hover v-slot="{ hover }">
+                                        <v-card
+                                            :elevation="hover ? 7 : 2"
+                                            :class="{ 'on-hover': hover }"
                                         >
-                                            <v-img src="@/assets/images/home/ferri.jpeg"></v-img>
+                                            <v-toolbar
+                                                color="#007A4D"
+                                                dark
+                                                dense
+                                            >
+                                                <v-toolbar-title class="text-body-2">
+                                                    {{ card.title }}
+                                                </v-toolbar-title>
+                                                <v-spacer></v-spacer>
 
-                                        </v-avatar>
-                                    </a>
-                                    <span class="caption grey--text">Cristiano Ferri</span>
-                                </div>
-                                <div class="d-flex flex-column text-center">
-                                    <a href="https://www.linkedin.com/in/eduardo-magrani-78216b21">
-                                        <v-avatar
-                                            style="margin-left:15px"
-                                            class="elevation-12 mb-12"
-                                            size="100"
-                                        >
-                                            <v-img src="@/assets/images/home/magrani.jpg"></v-img>
-                                        </v-avatar>
-                                    </a>
-                                    <span class="caption grey--text">Eduardo Magrani</span>
-                                </div>
+                                                <v-btn :href="card.linkedin" icon>
+                                                    <v-icon color="white">mdi-linkedin</v-icon>
+                                                </v-btn>
+                                            </v-toolbar>
+                                            <v-img
+                                                :src="card.src"
+                                                :aspect-ratio="1"
+                                                class="white--text align-end"
+                                                gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+                                                height="350"
+                                            >
+                                            </v-img>
 
-                                <div class="d-flex flex-column text-center">
-                                    <a href="https://www.linkedin.com/in/christianmoryah">
-                                        <v-avatar
-                                            style="margin-left:15px"
-                                            class="elevation-12 mb-12"
-                                            size="100"
-                                        >
-                                            <v-img src="@/assets/images/home/chris.jpeg"></v-img>
-                                        </v-avatar>
-                                    </a>
-                                    <span class="caption grey--text">Christian Miranda</span>
-                                </div>
-
-                                <div class="d-flex flex-column text-center">
-                                    <a href="https://www.linkedin.com/in/andressa-sousa-3b1187125/">
-                                        <v-avatar
-                                            style="margin-left:15px"
-                                            class="elevation-12 mb-12"
-                                            size="100"
-                                        >
-                                            <v-img src="@/assets/images/home/andressa.jpeg"></v-img>
-                                        </v-avatar>
-                                    </a>
-                                    <span class="caption grey--text">Andressa Sousa</span>
-                                </div>
-
-
-                                <div class="d-flex flex-column text-center">
-                                    <v-avatar
-                                        style="margin-left:15px"
-                                        class="elevation-12 mb-12"
-                                        size="100"
-                                    >
-                                        <v-img src="@/assets/images/home/isabele.jpeg"></v-img>
-                                    </v-avatar>
-                                    <span class="caption grey--text">Isabele</span>
-                                </div>
-
-                                <div class="d-flex flex-column text-center">
-                                    <a href="https://www.linkedin.com/in/m%C3%A1rio-pragm%C3%A1cio-13340436">
-                                        <v-avatar
-                                            style="margin-left:15px"
-                                            class="elevation-12 mb-12"
-                                            size="100"
-                                        >
-                                            <v-img src="@/assets/images/home/mario.jpeg"></v-img>
-                                        </v-avatar>
-                                    </a>
-                                    <span class="caption grey--text">Mário Pragmácio</span>
-                                </div>
-
-                            </div>
+                                        </v-card>
+                                    </v-hover>
+                                </v-col>
+                            </v-row>
                         </v-container>
+
                     </div>
                 </template>
             </Card>
@@ -128,9 +86,46 @@ export default {
     components: {
         Card,
     },
-    data() {
-        return {}
-    }
+    data: () => ({
+        cards: [
+            {
+                title: 'Cristiano Ferri',
+                src: require('@/assets/images/home/ferri.jpeg'),
+                flex: 4,
+                linkedin: 'https://br.linkedin.com/in/crisferri/pt'
+            },
+            {
+                title: 'Eduardo Magrani',
+                src: require('@/assets/images/home/magrani.png'),
+                flex: 4,
+                linkedin: 'https://www.linkedin.com/in/eduardo-magrani-78216b21'
+            },
+            {
+                title: 'Christian Miranda',
+                src: require('@/assets/images/home/chris.jpeg'),
+                flex: 4,
+                linkedin: 'https://www.linkedin.com/in/christianmoryah'
+            },
+            {
+                title: 'Andressa Sousa',
+                src: require('@/assets/images/home/andressa.jpeg'),
+                flex: 4,
+                linkedin: 'https://www.linkedin.com/in/andressa-sousa-3b1187125/'
+            },
+            {
+                title: 'Isabele',
+                src: require('@/assets/images/home/isabele.jpeg'),
+                flex: 4,
+                linkedin: 'https://www.linkedin.com/in/m%C3%A1rio-pragm%C3%A1cio-13340436'
+            },
+            {
+                title: 'Mário Pragmácio',
+                src: require('@/assets/images/home/mario.jpeg'),
+                flex: 4,
+                linkedin: ''
+            }
+        ],
+    }),
 }
 </script>
 
