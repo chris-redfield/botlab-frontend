@@ -60,6 +60,12 @@ const routes = [
         component: () => import('../components/modules/about/Quem.vue'),
         beforeEnter: auth
     },
+    {
+        path: '/beta',
+        name: 'Beta',
+        component: () => import('../components/modules/beta/Beta.vue'),
+        beforeEnter: auth
+    },
 ];
 
 
