@@ -111,6 +111,13 @@ export default {
     components: {
         //Carousel,
     },
+    props: {
+        isBeta: {
+            type: Boolean,
+            required: false,
+            default: false
+        },
+    },
     data() {
         return {
             solucionaDuvida: require('@/assets/images/home/cardSolucionaDuvida.svg'),
@@ -169,6 +176,8 @@ export default {
     },
     methods: {
         abrirChat() {
+            if (this.isBeta) return;
+
             // eslint-disable-next-line no-undef
             openChat();
         }
