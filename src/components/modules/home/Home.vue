@@ -188,7 +188,7 @@ export default {
         initKommunicate() {
             (function(d, m){
                 var kommunicateSettings = {
-                    "appId": process.env.KOMMUNICATE_ID,
+                    "appId": process.env.VUE_APP_KOMMUNICATE_ID,
                     "popupWidget":true,
                     "automaticChatOpenOnNavigation":true,
                     "labels": {
