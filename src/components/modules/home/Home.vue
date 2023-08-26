@@ -198,6 +198,8 @@ export default {
                     },
                     "language": "pt-BR"
                 };
+                console.log("########################")
+                console.log(process.env.VUE_APP_KOMMUNICATE_ID)
                 var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
                 s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
                 var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
