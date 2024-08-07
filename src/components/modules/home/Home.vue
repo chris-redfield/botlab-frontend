@@ -35,7 +35,6 @@
                                     color="#007A4D"
                                     dark
                                     class="mt-2 mr-4"
-                                    @click="abrirChat"
                                     height="40"
                                 >
                                     Aprenda com o Assis
@@ -45,7 +44,6 @@
                                     color="#12174E"
                                     dark
                                     class="mt-2 pl-4"
-                                    @click="abrirChat"
                                     height="40"
                                     outlined
                                     to="/about"
@@ -111,13 +109,6 @@ export default {
     components: {
         //Carousel,
     },
-    props: {
-        isBeta: {
-            type: Boolean,
-            required: false,
-            default: false
-        },
-    },
     data() {
         return {
             solucionaDuvida: require('@/assets/images/home/cardSolucionaDuvida.svg'),
@@ -171,53 +162,65 @@ export default {
         }
     },
     mounted() {
-        if (!this.isBeta) {
-            this.initKommunicate();
+        if (!window.chatbot) {
+            // reloading in case the package wasnt loaded
+            window.location.reload();
         }
+        this.initChatbot();
 
         this.cards = [this.cardDisponibilidade, this.multiCanal, this.solucionaDuvida];
         this.cardsHome = [this.firstCard, this.secondCard, this.thirdCard];
     },
     methods: {
-        abrirChat() {
-            if (this.isBeta) return;
-
-            // eslint-disable-next-line no-undef
-            openChat();
-        },
-        initKommunicate() {
-            (function(d, m){
-                var kommunicateSettings = {
-                    "appId": process.env.VUE_APP_KOMMUNICATE_ID,
-                    "popupWidget":true,
-                    "automaticChatOpenOnNavigation":true,
-                    "labels": {
-                    'input.message': 'Digite sua mensagem...',
-                    'start.new': 'Começar uma conversa nova',
-                    'conversations.title': 'Conversas'
+        initChatbot() {
+            window.chatbot.init({
+                chatflowid: "e057b68a-e2cc-4452-83cc-9bed0a435556",
+                apiHost: "http://35.232.116.109:3000",
+                chatflowConfig: {
+                    // topK: 2
+                },
+                theme: {
+                    button: {
+                        backgroundColor: "#3B81F6",
+                        right: 20,
+                        bottom: 20,
+                        size: "small",
+                        iconColor: "white",
+                        customIconSrc: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg",
+                        //customIconSrc: "https://icons.iconarchive.com/icons/dtafalonso/android-l/256/Chrome-Beta-icon.png",
                     },
-                    "language": "pt-BR"
-                };
-                var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
-                s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-                var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
-                window.kommunicate = m; m._globals = kommunicateSettings;
-            })(document, window.kommunicate || {});
-        }
+                    chatWindow: {
+                        welcomeMessage: "Oi! Aqui é o assis GPT beta",
+                        backgroundColor: "#ffffff",
+                        height: 700,
+                        width: 400,
+                        fontSize: 16,
+                        poweredByTextColor: "#303235",
+                        botMessage: {
+                            backgroundColor: "#f7f8ff",
+                            textColor: "#303235",
+                            showAvatar: true,
+                            // @TODO: avatar image needs to be added as a hosted image url or set in flowise
+                            avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
+                        },
+                        userMessage: {
+                            backgroundColor: "#3B81F6",
+                            textColor: "#ffffff",
+                            showAvatar: true,
+                            avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
+                        },
+                        textInput: {
+                            placeholder: "Escreva sua pergunta",
+                            backgroundColor: "#ffffff",
+                            textColor: "#303235",
+                            sendButtonColor: "#3B81F6",
+                        }
+                    }
+                }
+            });
+        },
     },
 
-}
-function openChat() {
-  // eslint-disable-next-line no-undef
-  Kommunicate.displayKommunicateWidget(true); //This will show the widget
-  
-  // para ser examinado durante o uso
-  // eslint-disable-next-line no-undef
-  // Kommunicate.launchConversation();
-
-
-  // eslint-disable-next-line no-undef
-  Kommunicate.startConversation();
 }
 </script>
 
