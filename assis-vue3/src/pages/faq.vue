@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <AppHome />
+  <AppFaq />
 </template>
 
 <script setup>

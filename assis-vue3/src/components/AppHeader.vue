@@ -13,7 +13,7 @@
       ></v-img>
     </div>
     <v-row v-if="!xs" class="justify-large-screen">
-      <v-col cols="8" xl="4" lg="4" sm="12">
+      <v-col cols="8" xl="4" lg="5" sm="12">
         <v-container>
           <v-row class="text-center justify-large-screen">
             <v-col cols="2">
@@ -74,6 +74,7 @@
                     :class="{
                       'underline-button': verifyRoute(isHovering, '/quem-somos'),
                     }"
+                    class="px-2"
                     @click="changeRoute('/quem-somos')"
                     v-bind="props"
                   >
