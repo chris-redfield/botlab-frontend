@@ -13,7 +13,7 @@
       ></v-img>
     </div>
     <v-row v-if="!xs" class="justify-large-screen">
-      <v-col cols="8" xl="4" lg="5" sm="12">
+      <v-col cols="8" xl="4" lg="5" sm="12" class="px-3 pt-2">
         <v-container>
           <v-row class="text-center justify-large-screen">
             <v-col cols="2">
