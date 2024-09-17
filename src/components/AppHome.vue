@@ -32,6 +32,7 @@
                   dark
                   class="mt-2 mr-4"
                   height="40"
+                  @click="openChatbot"
                 >
                   Aprenda com o Assis
                 </v-btn>
@@ -197,7 +198,10 @@ export default {
     this.cardsHome = [this.firstCard, this.secondCard, this.thirdCard];
   },
   methods: {
-    initChatbot() {
+    openChatbot() {
+      this.initChatbot(true)
+    },
+    initChatbot(autoOpen = false) {
       window.chatbot.init({
         chatflowid: "e057b68a-e2cc-4452-83cc-9bed0a435556",
         apiHost: "http://35.232.116.109:3000",
@@ -213,6 +217,11 @@ export default {
             iconColor: "white",
             customIconSrc:
               "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg",
+            autoWindowOpen: {
+              autoOpen, //parameter to control automatic window opening
+              openDelay: 0, // Optional parameter for delay time in seconds
+              autoOpenOnMobile: false, //parameter to control automatic window opening in mobile
+            },
           },
           chatWindow: {
             welcomeMessage: "Oi! Aqui é o assis GPT beta",
