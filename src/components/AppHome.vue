@@ -199,6 +199,7 @@ export default {
   },
   methods: {
     openChatbot() {
+      window.chatbot.destroy();
       this.initChatbot(true)
     },
     initChatbot(autoOpen = false) {
